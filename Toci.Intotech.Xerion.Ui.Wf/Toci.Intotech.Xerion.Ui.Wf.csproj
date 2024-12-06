@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Toci.Intotech.Xerion.Ui\Toci.Intotech.Xerion.Ui.csproj" />
   </ItemGroup>
 

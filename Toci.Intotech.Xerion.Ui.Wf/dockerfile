@@ -1,0 +1,11 @@
+﻿# Użyj oficjalnego obrazu Windows z zainstalowanym .NET Framework
+FROM mcr.microsoft.com/dotnet/framework/runtime:4.8-windowsservercore-ltsc2019
+
+# Ustaw katalog roboczy w kontenerze
+WORKDIR /app
+
+# Skopiuj pliki aplikacji do kontenera
+COPY . .
+
+# Ustaw punkt wejścia dla aplikacji
+ENTRYPOINT ["C:\\app\\Toci.Intotech.Xerion.Ui.Wf.exe"]
