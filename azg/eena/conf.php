@@ -22,7 +22,7 @@
         define ('UZYTKOWNIK_ID', 'id_uzytkownik');
     
     require_once 'config.const.php';    
-    require_once 'common-config.php';    
+   // require_once 'common-config.php';    
     require_once 'ui/HelpersUI.php';
     
     $con_str = DATABASE_CONNECTION_STRING;
