@@ -1,0 +1,328 @@
+32;boles?awiecki;1
+33;dzier?oniowski;1
+35;górowski;1
+34;g?ogowski;1
+36;jaworski;1
+58;Jelenia Góra;1
+37;jeleniogórski;1
+38;kamiennogórski;1
+39;k?odzki;1
+40;legnicki / Legnica;1
+41;luba?ski;1
+42;lubi?ski;1
+43;lwówecki;1
+44;milicki;1
+45;ole?nicki;1
+46;o?awski;1
+47;polkowicki;1
+48;strzeli?ski;1
+51;trzebnicki;1
+52;wa?brzyski / Wa?brzych;1
+53;wo?owski;1
+54;wroc?awski / Wroc?aw;1
+56;zgorzelecki;1
+57;z?otoryjski;1
+55;z?bkowicki;1
+49;?redzki;1
+50;?widnicki;1
+62;aleksandrowski;2
+63;brodnicki;2
+64;bydgoski / Bydgoszcz;2
+65;che?mi?ski;2
+66;golubsko-dobrzy?ski;2
+67;grudzi?dzki / Grudzi?dz;2
+68;inowroc?awski;2
+69;lipnowski;2
+70;mogile?ski;2
+71;nakielski;2
+72;radziejowski;2
+73;rypi?ski;2
+74;s?pole?ski;2
+76;toru?ski / Toru?;2
+77;tucholski;2
+79;w?oc?awski / W?oc?awek;2
+78;w?brzeski;2
+75;?wiecki;2
+80;?ni?ski;2
+85;bialski / Bia?a Podlaska;3
+86;bi?gorajski;3
+87;che?mski / Che?m;3
+88;hrubieszowski;3
+89;janowski;3
+90;krasnostawski;3
+91;kra?nicki;3
+92;lubartowski;3
+93;lubelski / Lublin;3
+96;opolski;3
+97;parczewski;3
+98;pu?awski;3
+99;radzy?ski;3
+100;rycki;3
+102;tomaszowski;3
+103;w?odawski;3
+104;zamojski / Zamo??;3
+95;?ukowski;3
+94;??czy?ski;3
+101;?widnicki;3
+109;gorzowski / Gorzów Wielkopolski;4
+110;kro?nie?ski;4
+111;mi?dzyrzecki;4
+112;nowosolski;4
+114;strzelecko-drezdenecki;4
+115;sul?ci?ski;4
+113;s?ubicki;4
+117;zielonogórski / Zielona Góra;4
+116;?wiebodzi?ski;4
+118;?aga?ski;4
+119;?arski;4
+122;be?chatowski;5
+123;kutnowski;5
+128;opoczy?ski;5
+129;pabianicki;5
+130;paj?cza?ski;5
+131;piotrkowski / Piotrków Trybunalski;5
+132;podd?bicki;5
+133;radomszcza?ski;5
+134;rawski;5
+135;sieradzki;5
+136;skierniewicki / Skierniewice;5
+137;tomaszowski;5
+138;wielu?ski;5
+139;wieruszowski;5
+140;zdu?skowolski;5
+141;zgierski;5
+142;?ód?;5
+124;?aski;5
+127;?ódzki wschodni;5
+126;?owicki;5
+125;??czycki;5
+145;boche?ski;6
+146;brzeski;6
+147;chrzanowski;6
+148;d?browski;6
+149;gorlicki;6
+150;krakowski / Kraków;6
+151;limanowski;6
+152;miechowski;6
+153;my?lenicki;6
+154;nowos?decki / Nowy S?cz;6
+155;nowotarski;6
+156;olkuski;6
+157;o?wi?cimski;6
+158;proszowicki;6
+159;suski;6
+160;tarnowski / Tarnów;6
+161;tatrza?ski;6
+162;wadowicki;6
+163;wielicki;6
+167;bia?obrzeski;7
+168;ciechanowski;7
+169;garwoli?ski;7
+170;gostyni?ski;7
+172;grójecki;7
+171;grodziski;7
+173;kozienicki;7
+174;legionowski;7
+175;lipski;7
+177;makowski;7
+178;mi?ski;7
+179;m?awski;7
+180;nowodworski;7
+182;ostrowski;7
+181;ostro??cki / Ostro??ka;7
+183;otwocki;7
+184;piaseczy?ski;7
+187;pruszkowski;7
+188;przasnyski;7
+189;przysuski;7
+190;pu?tuski;7
+185;p?ocki / P?ock;7
+186;p?o?ski;7
+191;radomski / Radom;7
+192;siedlecki / Siedlce;7
+193;sierpecki;7
+194;sochaczewski;7
+195;soko?owski;7
+196;szyd?owiecki;7
+197;warszawski;7
+198;warszawski zachodni;7
+200;wo?omi?ski;7
+201;wyszkowski;7
+199;w?growski;7
+202;zwole?ski;7
+176;?osicki;7
+203;?uromi?ski;7
+204;?yrardowski;7
+209;brzeski;8
+210;g?ubczycki;8
+212;kluczborski;8
+213;krapkowicki;8
+211;k?dzierzy?sko-kozielski;8
+214;namys?owski;8
+215;nyski;8
+216;oleski;8
+217;opolski / Opole;8
+218;prudnicki;8
+219;strzelecki;8
+221;bieszczadzki;9
+222;brzozowski;9
+223;d?bicki;9
+224;jaros?awski;9
+225;jasielski;9
+226;kolbuszowski;9
+227;kro?nie?ski / Krosno;9
+228;le?ajski;9
+229;lubaczowski;9
+231;mielecki;9
+232;ni?a?ski;9
+233;przemyski / Przemy?l;9
+234;przeworski;9
+235;ropczycko-s?dziszowski;9
+236;rzeszowski / Rzeszów;9
+237;sanocki;9
+238;stalowowolski;9
+239;strzy?owski;9
+240;tarnobrzeski / Tarnobrzeg;9
+230;?a?cucki;9
+245;augustowski;10
+246;bia?ostocki / Bia?ystok;10
+247;bielski;10
+248;grajewski;10
+249;hajnowski;10
+250;kolne?ski;10
+252;moniecki;10
+253;sejne?ski;10
+254;siemiatycki;10
+255;sokólski;10
+256;suwalski / Suwa?ki;10
+257;wysokomazowiecki;10
+258;zambrowski;10
+251;?om?y?ski / ?om?a;10
+262;bytowski;11
+263;chojnicki;11
+264;cz?uchowski;11
+265;gda?ski / Gda?sk;11
+278;Gdynia;11
+266;kartuski;11
+267;ko?cierski;11
+268;kwidzy?ski;11
+269;l?borski;11
+270;malborski;11
+271;nowodworski;11
+272;pucki;11
+280;Sopot;11
+274;starogardzki;11
+273;s?upski / S?upsk;11
+275;tczewski;11
+276;wejherowski;11
+282;bielski / Bielsko-Bia?a;12
+299;Bytom;12
+281;b?dzi?ski;12
+300;Chorzów;12
+283;cieszy?ski;12
+284;cz?stochowski / Cz?stochowa;12
+302;D?browa Górnicza;12
+285;gliwicki / Gliwice;12
+304;Jastrz?bie-Zdrój;12
+305;Jaworzno;12
+306;Katowice;12
+286;k?obucki;12
+287;lubliniecki;12
+288;miko?owski;12
+289;myszkowski;12
+307;Mys?owice;12
+308;Piekary ?l?skie;12
+290;pszczy?ski;12
+291;raciborski;12
+309;Ruda ?l?ska;12
+292;rybnicki / Rybnik;12
+311;Siemianowice ?l?skie;12
+312;Sosnowiec;12
+293;tarnogórski;12
+294;tyski / Tychy;12
+295;wodzis?awski;12
+315;Zabrze;12
+296;zawiercia?ski;12
+313;?wi?toch?owice;12
+316;?ory;12
+297;?ywiecki;12
+317;buski;13
+318;j?drzejowski;13
+319;kazimierski;13
+320;kielecki / Kielce;13
+321;konecki;13
+322;opatowski;13
+323;ostrowiecki;13
+324;pi?czowski;13
+325;sandomierski;13
+326;skar?yski;13
+327;starachowicki;13
+328;staszowski;13
+329;w?oszczowski;13
+331;bartoszycki;14
+332;braniewski;14
+333;dzia?dowski;14
+334;elbl?ski / Elbl?g;14
+335;e?cki;14
+336;gi?ycki;14
+337;i?awski;14
+338;k?trzy?ski;14
+339;lidzbarski;14
+340;mr?gowski;14
+341;nidzicki;14
+342;nowomiejski;14
+343;olecko;14
+344;olecko-go?dapski;14
+345;olszty?ski / Olsztyn;14
+346;ostródzki;14
+347;piski;14
+348;szczycie?ski;14
+1;chodzieski;15
+2;czarnkowsko-trzcianecki;15
+3;gnie?nie?ski;15
+4;gosty?ski;15
+5;grodziski;15
+6;jaroci?ski;15
+7;kaliski;15
+9;kolski;15
+10;koni?ski;15
+11;ko?cia?ski;15
+12;krotoszy?ski;15
+8;k?pi?ski;15
+13;leszczy?ski;15
+14;mi?dzychodzki;15
+15;nowotomyski;15
+16;obornicki;15
+17;ostrowski;15
+18;ostrzeszowski;15
+19;pilski;15
+20;pleszewski;15
+21;pozna?ski / Pozna?;15
+22;rawicki;15
+24;szamotulski;15
+23;s?upecki;15
+27;turecki;15
+29;wolszty?ski;15
+30;wrzesi?ski;15
+28;w?growiecki;15
+31;z?otowski;15
+25;?redzki;15
+26;?remski;15
+351;bia?ogardzki;16
+352;choszcze?ski;16
+353;drawski;16
+354;goleniowski;16
+355;gryficki;16
+356;gryfi?ski;16
+357;kamie?ski;16
+359;koszali?ski / Koszalin;16
+358;ko?obrzeski;16
+360;my?liborski;16
+361;policki;16
+362;pyrzycki;16
+364;stargardzki;16
+365;szczecinecki / Szczecin;16
+363;s?awie?ski;16
+367;wa?ecki;16
+370;?winouj?cie;16
+366;?widwi?ski;16

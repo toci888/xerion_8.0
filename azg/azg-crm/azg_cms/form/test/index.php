@@ -1,0 +1,3 @@
+<?
+	echo $SERVER_PORT;
+?>

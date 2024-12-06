@@ -1,0 +1,108 @@
+***********plik z linkiem (miedzy sprzedaza) a brami:
+
+echo "<table width=\"512\" cellpadding=\"0\" cellspacing=\"0\" border = \"0\">";
+echo "<tr>";
+echo "<td width=\"50%\"  align = \"left\">";
+?>
+
+ten fla powrót
+
+<?
+echo "</td>";
+echo "<td width=\"50%\" align = \"right\">";
+echo "<a href=\"druksm.php?nu=$nu\" target = \"_blank\">Wydrukuj ze zdjeciami</a><br>";
+echo "<a href=\"druksmb.php?nu=$nu\" target = \"_blank\">Wydrukuj bez zdjęć</a>";
+echo "</td>";
+echo "</tr>";
+echo "</table>";
+
+
+************plik dotyczšcy wydruku:
+
+
+<HTML LANG="pl">
+<HEAD>
+<META http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+<LINK REL="stylesheet" HREF="azg.css">
+<TITLE>"OPOLSKIE BIURO NIERUCHOMOŚCI - A.Z.GWARANCJA"</TITLE>
+
+</HEAD>
+
+<BODY bgcolor='white' marginheight="0" marginwidth="0" topmargin="0" leftmargin="0">
+
+
+<center>
+
+<table width=100% cellpadding=0 cellspacing=0 frame border=0>
+
+<tr>
+	<td colspan = 4 height=5 ></td>
+</tr>
+
+<tr>
+<td width=40% order=0 align=left rowspan = 3>
+
+<img src=http://www.web.azg.pl/form/logom.jpg width=181 height=90 border=0></img>
+
+</td>
+
+<td width=60% border=0 align=right colspan = 3>
+<span class=tytulna><b>
+BIURO NIERUCHOMOŚCI A.Z.GWARANCJA<br>
+</span>
+</td>
+</tr>
+
+<tr>
+<td height=5 width=30% border=0 align=right>
+<span class=tytul><b>
+ul. Sosnkowskiego 40-42,<br>
+45-284 Opole<br>
+tel./fax. (077) 457-96-99<br>
+</b>
+</span>
+</td>
+
+<td width=2% height=100% align=right><img src=http://www.web.azg.pl/form/black.gif width=1 height=100% border=0></td>
+
+<td height=5 width=28% border=0 align=right>
+<span class=tytul><b>
+ul. Bytnara Rudego 13, <br>45-265 Opole<br>
+tel./fax. (077) 458-00-94, <br>
+tel.kom.0602-531-334<br>
+</b>
+</span>
+</td>
+</tr>
+<tr>
+<td width=100% border=0 align=right colspan = 3>
+<span class=tytul><b>
+adres: <a href = http://www.azg.pl>www.azg.pl</a>, e-mail: <a href= mailto:azgwarancja@azg.pl>azgwarancja@azg.pl</a>
+</b>
+</span>
+</td>
+
+</tr>
+
+	<tr>
+	<td colspan = 4><img src=http://www.web.azg.pl/form/black.gif width=100% height=2 border=0></td>
+	</tr>
+
+</table>
+<br>
+
+<?
+
+$conn = pg_connect ("dbname=nierazg");
+
+
+................... tresc oferty .......................
+
+
+?>
+<SCRIPT language=JavaScript type=text/javascript>self.print()</SCRIPT>
+</BODY>
+</HTML>
+
+
+

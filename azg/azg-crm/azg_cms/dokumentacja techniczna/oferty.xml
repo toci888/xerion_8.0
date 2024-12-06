@@ -1,0 +1,2412 @@
+<?xml version="1.0" encoding="windows-1250"?>
+<plik>
+<informacje>Plik wygenerowany przez program Eksport 2001 firmy Melog.com www.melog.com</informacje>
+<agencja>Agencja</agencja>
+<data>2002-10-25 14:19:56</data>
+<wersja>0.2</wersja>
+<cel>oferty.net</cel>
+<zawartosc_pliku>calosc</zawartosc_pliku>
+<lista_ofert>
+<dzial tab="mieszkania" typ="sprzedaz">
+<oferta>
+<id>9</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Os. Kopernika</param>
+<param nazwa="okolica" typ="text">nowe osiedle</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">35</param>
+<param nazwa="liczbapokoi" typ="int">1</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1999</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">otwarta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">95000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>11</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">32</param>
+<param nazwa="liczbapokoi" typ="int">1</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1998</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">80000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>13</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Os. Sadowa</param>
+<param nazwa="okolica" typ="text">bliskie centrum</param>
+<param nazwa="ulica" typ="text">Grunwaldzka</param>
+<param nazwa="powierzchnia" typ="real">36</param>
+<param nazwa="liczbapokoi" typ="int">1</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">widna</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">79000</cena>
+<param nazwa="biuro" typ="int">-1</param>
+</oferta>
+<oferta>
+<id>16</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Mialnówek</param>
+<param nazwa="dzielnica" typ="text">Jedwabnik</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="ulica" typ="text">Piotra Skargi</param>
+<param nazwa="powierzchnia" typ="real">38</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">rama H</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">85000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>18</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">Mifama</param>
+<param nazwa="ulica" typ="text">Nowowiejska</param>
+<param nazwa="powierzchnia" typ="real">52</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">85000</cena>
+<param nazwa="biuro" typ="int">-1</param>
+</oferta>
+<oferta>
+<id>19</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="ulica" typ="text">Nadarzyńska</param>
+<param nazwa="powierzchnia" typ="real">52</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">1</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">2002</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">otwarta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">142200</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>20</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Skłodowskiej</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1975</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">88000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>22</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kopernika</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">120000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>23</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Sienkiewicza</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">otwarta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">90000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>24</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Kościuszki</param>
+<param nazwa="powierzchnia" typ="real">47</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">otwarta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">83000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>25</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">60</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">120000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>26</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Sienkiewicza</param>
+<param nazwa="powierzchnia" typ="real">60</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">1</param>
+<param nazwa="liczbapieter" typ="int">7</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1980</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">125000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>27</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Blisko centrum</param>
+<param nazwa="okolica" typ="text">blisko centrum</param>
+<param nazwa="ulica" typ="text">Sadowa</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">85000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>28</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Kilińskiego</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="text"></param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="text"></param>
+<param nazwa="materialbudowy" typ="text"></param>
+<param nazwa="typkuchni" typ="text"></param>
+<param nazwa="miejscaparkingowe" typ="text"></param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">85000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>29</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">11-go Listopada</param>
+<param nazwa="powierzchnia" typ="real">50</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1925</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">120000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>30</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Sienkiewicza</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">85000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>31</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Brwinów</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">Blisko PKP</param>
+<param nazwa="ulica" typ="text">Blisko PKP</param>
+<param nazwa="powierzchnia" typ="real">60</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">130000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>33</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kopernika</param>
+<param nazwa="okolica" typ="text">Kopernika</param>
+<param nazwa="ulica" typ="text">Dworska</param>
+<param nazwa="powierzchnia" typ="real">85</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1985</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">165000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>34</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">11-go Listopada</param>
+<param nazwa="powierzchnia" typ="real">87</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="text"></param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">160000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>116</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">8</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1989</param>
+<param nazwa="materialbudowy" typ="text">beton</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">95000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>122</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="ulica" typ="text">Sienkiewicza</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">1</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">105000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>125</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Beirda</param>
+<param nazwa="okolica" typ="text">Kopernika</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">35</param>
+<param nazwa="liczbapokoi" typ="int">1</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">1</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1998</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">widna</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">75000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>126</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Koprnika</param>
+<param nazwa="okolica" typ="text">Kopernika</param>
+<param nazwa="ulica" typ="text">A.K.</param>
+<param nazwa="powierzchnia" typ="real">60</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">6</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1983</param>
+<param nazwa="materialbudowy" typ="text">wlk. płyta</param>
+<param nazwa="typkuchni" typ="text">widna</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">110000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>128</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Mialnówek</param>
+<param nazwa="dzielnica" typ="text">Jedwabnik</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="ulica" typ="text">Dębowa</param>
+<param nazwa="powierzchnia" typ="real">48</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1970</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">widna</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">96000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>139</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="ulica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">64</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">0</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">195000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>142</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Chlebnia</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="ulica" typ="text"></param>
+<param nazwa="powierzchnia" typ="real">67</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="pietro" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1985</param>
+<param nazwa="materialbudowy" typ="text">wlk. płyta</param>
+<param nazwa="typkuchni" typ="text">widna</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">100000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+<oferta>
+<id>148</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="ulica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">53</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="pietro" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="winda" typ="int">0</param>
+<param nazwa="rokbudowy" typ="int">1995</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="typkuchni" typ="text">zamknięta</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">110000</cena>
+<param nazwa="biuro" typ="int">0</param>
+</oferta>
+</dzial>
+<dzial tab="mieszkania" typ="wynajem">
+</dzial>
+<dzial tab="domy" typ="sprzedaz">
+<oferta>
+<id>35</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">wieś</param>
+<param nazwa="dzielnica" typ="text">wieś</param>
+<param nazwa="okolica" typ="text">Pniewy koło Grójca</param>
+<param nazwa="powierzchnia" typ="real">130</param>
+<param nazwa="powierzchniadzialki" typ="real">607</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">drewno</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">Brak</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">28000</cena>
+</oferta>
+<oferta>
+<id>36</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Radziejowice</param>
+<param nazwa="dzielnica" typ="text">Radziejowice</param>
+<param nazwa="okolica" typ="text">Radziejowice</param>
+<param nazwa="powierzchnia" typ="real">103</param>
+<param nazwa="powierzchniadzialki" typ="real">1200</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">Brak</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">150000</cena>
+</oferta>
+<oferta>
+<id>38</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Osowiec</param>
+<param nazwa="dzielnica" typ="text">Osowiec</param>
+<param nazwa="okolica" typ="text">Osowiec</param>
+<param nazwa="powierzchnia" typ="real">128</param>
+<param nazwa="powierzchniadzialki" typ="real">1533</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text"></param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">180000</cena>
+</oferta>
+<oferta>
+<id>40</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Podkowa Leśna</param>
+<param nazwa="dzielnica" typ="text">Owczarnia</param>
+<param nazwa="okolica" typ="text">Owczarnia</param>
+<param nazwa="powierzchnia" typ="real">55</param>
+<param nazwa="powierzchniadzialki" typ="real">2600</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">1</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1960</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">elektryczne</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">Brak</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">180000</cena>
+</oferta>
+<oferta>
+<id>41</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Radońskiej</param>
+<param nazwa="powierzchnia" typ="real">137</param>
+<param nazwa="powierzchniadzialki" typ="real">903</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2002</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text"></param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">195000</cena>
+</oferta>
+<oferta>
+<id>42</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Basen</param>
+<param nazwa="powierzchnia" typ="real">70</param>
+<param nazwa="powierzchniadzialki" typ="real">774</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1968</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">195000</cena>
+</oferta>
+<oferta>
+<id>43</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">180</param>
+<param nazwa="powierzchniadzialki" typ="real">610</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2000</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">210000</cena>
+</oferta>
+<oferta>
+<id>44</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">100</param>
+<param nazwa="powierzchniadzialki" typ="real">381</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1960</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">miejskie</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">220000</cena>
+</oferta>
+<oferta>
+<id>45</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">140</param>
+<param nazwa="powierzchniadzialki" typ="real">886</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">260000</cena>
+</oferta>
+<oferta>
+<id>46</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">240</param>
+<param nazwa="powierzchniadzialki" typ="real">450</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1984</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">270000</cena>
+</oferta>
+<oferta>
+<id>47</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">177</param>
+<param nazwa="powierzchniadzialki" typ="real">496</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1988</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">280000</cena>
+</oferta>
+<oferta>
+<id>48</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">123</param>
+<param nazwa="powierzchniadzialki" typ="real">450</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-zamkniety</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">280000</cena>
+</oferta>
+<oferta>
+<id>49</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">365</param>
+<param nazwa="typzabudowy" typ="text">bliźniak</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1989</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">250000</cena>
+</oferta>
+<oferta>
+<id>50</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">100</param>
+<param nazwa="powierzchniadzialki" typ="real">460</param>
+<param nazwa="typzabudowy" typ="text">segment</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1985</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">350000</cena>
+</oferta>
+<oferta>
+<id>51</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Basen</param>
+<param nazwa="powierzchnia" typ="real">157</param>
+<param nazwa="powierzchniadzialki" typ="real">900</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1997</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">500000</cena>
+</oferta>
+<oferta>
+<id>52</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">stawy</param>
+<param nazwa="powierzchnia" typ="real">140</param>
+<param nazwa="powierzchniadzialki" typ="real">1088</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1964</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">280000</cena>
+</oferta>
+<oferta>
+<id>53</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">blisko centrum</param>
+<param nazwa="powierzchnia" typ="real">250</param>
+<param nazwa="powierzchniadzialki" typ="real">680</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">365000</cena>
+</oferta>
+<oferta>
+<id>54</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">3-go Maja</param>
+<param nazwa="powierzchnia" typ="real">147</param>
+<param nazwa="powierzchniadzialki" typ="real">2100</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1992</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">500000</cena>
+</oferta>
+<oferta>
+<id>55</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">3-go Maja</param>
+<param nazwa="powierzchnia" typ="real">280</param>
+<param nazwa="powierzchniadzialki" typ="real">2485</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">7</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">1000000</cena>
+</oferta>
+<oferta>
+<id>56</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">blisko centrum</param>
+<param nazwa="powierzchnia" typ="real">120</param>
+<param nazwa="powierzchniadzialki" typ="real">2993</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1936</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">180000</cena>
+</oferta>
+<oferta>
+<id>57</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Makówka</param>
+<param nazwa="okolica" typ="text"></param>
+<param nazwa="powierzchnia" typ="real">295</param>
+<param nazwa="powierzchniadzialki" typ="real">3643</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-zamkniety</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">369000</cena>
+</oferta>
+<oferta>
+<id>58</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Żyrardów</param>
+<param nazwa="dzielnica" typ="text">Os. Kościuszki</param>
+<param nazwa="okolica" typ="text">bliskie centrum</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">606</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1984</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">285000</cena>
+</oferta>
+<oferta>
+<id>59</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">120</param>
+<param nazwa="powierzchniadzialki" typ="real">2000</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1935</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">495000</cena>
+</oferta>
+<oferta>
+<id>60</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Mościska</param>
+<param nazwa="okolica" typ="text">Mościska</param>
+<param nazwa="powierzchnia" typ="real">282</param>
+<param nazwa="powierzchniadzialki" typ="real">1522</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">8</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">2001</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">350000</cena>
+</oferta>
+<oferta>
+<id>61</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Kampinos</param>
+<param nazwa="dzielnica" typ="text">Kampinos</param>
+<param nazwa="okolica" typ="text">Kampinos</param>
+<param nazwa="powierzchnia" typ="real">140</param>
+<param nazwa="powierzchniadzialki" typ="real">1000</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1996</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">z butli</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">270000</cena>
+</oferta>
+<oferta>
+<id>62</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Makówka</param>
+<param nazwa="okolica" typ="text">Makówka</param>
+<param nazwa="powierzchnia" typ="real">123</param>
+<param nazwa="powierzchniadzialki" typ="real">2000</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">z butli</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">266000</cena>
+</oferta>
+<oferta>
+<id>63</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Janinów</param>
+<param nazwa="okolica" typ="text">Janinów</param>
+<param nazwa="powierzchnia" typ="real">280</param>
+<param nazwa="powierzchniadzialki" typ="real">1800</param>
+<param nazwa="typzabudowy" typ="text">bliźniak</param>
+<param nazwa="liczbapokoi" typ="int">10</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">2000</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">450000</cena>
+</oferta>
+<oferta>
+<id>64</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Żabia Wola</param>
+<param nazwa="okolica" typ="text">Huta Żabiowolska</param>
+<param nazwa="powierzchnia" typ="real">200</param>
+<param nazwa="powierzchniadzialki" typ="real">7100</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">z butli</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">300000</cena>
+</oferta>
+<oferta>
+<id>65</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">2939</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2000</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-zamkniety</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">420000</cena>
+</oferta>
+<oferta>
+<id>66</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kozery</param>
+<param nazwa="okolica" typ="text">Kozery</param>
+<param nazwa="powierzchnia" typ="real">130</param>
+<param nazwa="powierzchniadzialki" typ="real">31000</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1987</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">270000</cena>
+</oferta>
+<oferta>
+<id>67</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Brwinów</param>
+<param nazwa="dzielnica" typ="text">Brwinów</param>
+<param nazwa="okolica" typ="text">północna</param>
+<param nazwa="powierzchnia" typ="real">250</param>
+<param nazwa="powierzchniadzialki" typ="real">1590</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">7</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1999</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">750000</cena>
+</oferta>
+<oferta>
+<id>68</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Podkowa Leśna</param>
+<param nazwa="dzielnica" typ="text">Podkowa Leśna</param>
+<param nazwa="okolica" typ="text"></param>
+<param nazwa="powierzchnia" typ="real">250</param>
+<param nazwa="powierzchniadzialki" typ="real">1538</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1980</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">735000</cena>
+</oferta>
+<oferta>
+<id>69</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Brwinów</param>
+<param nazwa="dzielnica" typ="text">Brwinów</param>
+<param nazwa="okolica" typ="text">Brwinów</param>
+<param nazwa="powierzchnia" typ="real">174</param>
+<param nazwa="powierzchniadzialki" typ="real">749</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">450000</cena>
+</oferta>
+<oferta>
+<id>70</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Stara Wieś</param>
+<param nazwa="dzielnica" typ="text">Stara Wieś</param>
+<param nazwa="okolica" typ="text">Stara Wieś</param>
+<param nazwa="powierzchnia" typ="real">200</param>
+<param nazwa="powierzchniadzialki" typ="real">1200</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">8</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1995</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">350000</cena>
+</oferta>
+<oferta>
+<id>71</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">WKD- Grudów</param>
+<param nazwa="powierzchnia" typ="real">96</param>
+<param nazwa="powierzchniadzialki" typ="real">1377</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1991</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">320000</cena>
+</oferta>
+<oferta>
+<id>72</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">Brzózki</param>
+<param nazwa="powierzchnia" typ="real">260</param>
+<param nazwa="powierzchniadzialki" typ="real">890</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">9</param>
+<param nazwa="liczbapieter" typ="int">4</param>
+<param nazwa="rokbudowy" typ="int">1935</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">2</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">750000</cena>
+</oferta>
+<oferta>
+<id>73</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">200</param>
+<param nazwa="powierzchniadzialki" typ="real">1760</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">3</param>
+<param nazwa="rokbudowy" typ="int">1992</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">630000</cena>
+</oferta>
+<oferta>
+<id>74</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="powierzchnia" typ="real">254</param>
+<param nazwa="powierzchniadzialki" typ="real">2991</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1935</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">2</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">950000</cena>
+</oferta>
+<oferta>
+<id>78</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">65</param>
+<param nazwa="powierzchniadzialki" typ="real">900</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1936</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">120000</cena>
+</oferta>
+<oferta>
+<id>127</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Kanie</param>
+<param nazwa="dzielnica" typ="text">Kanie</param>
+<param nazwa="okolica" typ="text">Kanie</param>
+<param nazwa="powierzchnia" typ="real">240</param>
+<param nazwa="powierzchniadzialki" typ="real">1300</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1989</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">740000</cena>
+</oferta>
+<oferta>
+<id>132</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">WKD</param>
+<param nazwa="powierzchnia" typ="real">134</param>
+<param nazwa="powierzchniadzialki" typ="real">1117</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2002</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">surowy-otwarty</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">160000</cena>
+</oferta>
+<oferta>
+<id>143</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Brzózki</param>
+<param nazwa="okolica" typ="text">Kazimierzowska</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">1270</param>
+<param nazwa="typzabudowy" typ="text"></param>
+<param nazwa="liczbapokoi" typ="text"></param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="text"></param>
+<param nazwa="materialbudowy" typ="text"></param>
+<param nazwa="stanbudynku" typ="text"></param>
+<param nazwa="liczbatelefonow" typ="text"></param>
+<param nazwa="ogrzewanie" typ="text"></param>
+<param nazwa="typpodlaczeniawody" typ="text"></param>
+<param nazwa="gaz" typ="text"></param>
+<param nazwa="miejscaparkingowe" typ="text"></param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">520000</cena>
+</oferta>
+<oferta>
+<id>149</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Basen</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">220</param>
+<param nazwa="powierzchniadzialki" typ="real">1250</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">6</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1987</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">miejskie</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">620000</cena>
+</oferta>
+<oferta>
+<id>114</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Podkowa Leśna</param>
+<param nazwa="dzielnica" typ="text">Podkowa Leśna</param>
+<param nazwa="okolica" typ="text">Podkowa Leśna</param>
+<param nazwa="powierzchnia" typ="real">90</param>
+<param nazwa="powierzchniadzialki" typ="real">7700</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1950</param>
+<param nazwa="materialbudowy" typ="text">drewno</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">970000</cena>
+</oferta>
+<oferta>
+<id>115</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Szczęsne</param>
+<param nazwa="powierzchnia" typ="real">90</param>
+<param nazwa="powierzchniadzialki" typ="real">1200</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1960</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">co</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">170000</cena>
+</oferta>
+<oferta>
+<id>118</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Warszawa</param>
+<param nazwa="dzielnica" typ="text">Żoliborz</param>
+<param nazwa="okolica" typ="text">Żoliborz</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">1050</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1994</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">1596000</cena>
+</oferta>
+<oferta>
+<id>140</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">50</param>
+<param nazwa="powierzchniadzialki" typ="real">598</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">2</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1956</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do remontu</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">elektryczne</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">170000</cena>
+</oferta>
+<oferta>
+<id>141</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Królewska</param>
+<param nazwa="okolica" typ="text">Królewska</param>
+<param nazwa="powierzchnia" typ="real">150</param>
+<param nazwa="powierzchniadzialki" typ="real">798</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1950</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">500000</cena>
+</oferta>
+<oferta>
+<id>150</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Podkowa Leśna</param>
+<param nazwa="dzielnica" typ="text">Centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">160</param>
+<param nazwa="powierzchniadzialki" typ="real">900</param>
+<param nazwa="typzabudowy" typ="text">bliźniak</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1988</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">do odnowienia</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">420000</cena>
+</oferta>
+<oferta>
+<id>151</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">WKD</param>
+<param nazwa="powierzchnia" typ="real">90</param>
+<param nazwa="powierzchniadzialki" typ="real">865</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">4</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">2002</param>
+<param nazwa="materialbudowy" typ="text">pustak</param>
+<param nazwa="stanbudynku" typ="text">surowy-zamkniety</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">elektryczne</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">180000</cena>
+</oferta>
+</dzial>
+<dzial tab="domy" typ="wynajem">
+<oferta>
+<id>133</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Błonie</param>
+<param nazwa="dzielnica" typ="text">Centrum</param>
+<param nazwa="okolica" typ="text">Centrum</param>
+<param nazwa="powierzchnia" typ="real">110</param>
+<param nazwa="powierzchniadzialki" typ="real">540</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">5</param>
+<param nazwa="liczbapieter" typ="int">2</param>
+<param nazwa="rokbudowy" typ="int">1985</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">1</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">1500</cena>
+<param nazwa="biuro" typ="int">0</param>
+<param nazwa="meble" typ="int">0</param>
+</oferta>
+<oferta>
+<id>135</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Łąki</param>
+<param nazwa="okolica" typ="text">Łąki</param>
+<param nazwa="powierzchnia" typ="real">80</param>
+<param nazwa="powierzchniadzialki" typ="real">400</param>
+<param nazwa="typzabudowy" typ="text">wolnostojący</param>
+<param nazwa="liczbapokoi" typ="int">3</param>
+<param nazwa="liczbapieter" typ="int">1</param>
+<param nazwa="rokbudowy" typ="int">1990</param>
+<param nazwa="materialbudowy" typ="text">cegła</param>
+<param nazwa="stanbudynku" typ="text">gotowy</param>
+<param nazwa="liczbatelefonow" typ="int">0</param>
+<param nazwa="ogrzewanie" typ="text">gazowe</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="miejscaparkingowe" typ="text">dla osobowych</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">1200</cena>
+<param nazwa="biuro" typ="int">0</param>
+<param nazwa="meble" typ="int">0</param>
+</oferta>
+</dzial>
+<dzial tab="dzialki" typ="sprzedaz">
+<oferta>
+<id>79</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">1519</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">100000</cena>
+</oferta>
+<oferta>
+<id>80</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">1518</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">100000</cena>
+</oferta>
+<oferta>
+<id>81</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">3191</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prą, woda</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">210000</cena>
+</oferta>
+<oferta>
+<id>82</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Żółwin</param>
+<param nazwa="dzielnica" typ="text">Żółwin</param>
+<param nazwa="okolica" typ="text">obrzeża Podkowy Leśnej</param>
+<param nazwa="powierzchnia" typ="real">2745</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prąd</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">109000</cena>
+</oferta>
+<oferta>
+<id>83</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsna</param>
+<param nazwa="okolica" typ="text">Szczęsna</param>
+<param nazwa="powierzchnia" typ="real">1900</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">57000</cena>
+</oferta>
+<oferta>
+<id>85</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Piaskowa</param>
+<param nazwa="powierzchnia" typ="real">3811</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">całkowite</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">400000</cena>
+</oferta>
+<oferta>
+<id>86</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Nadarzyn</param>
+<param nazwa="dzielnica" typ="text">Nadarzyn</param>
+<param nazwa="okolica" typ="text">Nadarzyn</param>
+<param nazwa="powierzchnia" typ="real">790</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">79000</cena>
+</oferta>
+<oferta>
+<id>88</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Jaktorów</param>
+<param nazwa="dzielnica" typ="text">Jaktorów</param>
+<param nazwa="okolica" typ="text">Grodziska Maz.</param>
+<param nazwa="powierzchnia" typ="real">942</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">28260</cena>
+</oferta>
+<oferta>
+<id>89</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Musuły</param>
+<param nazwa="dzielnica" typ="text">Musuły</param>
+<param nazwa="okolica" typ="text">Żabia Wola</param>
+<param nazwa="powierzchnia" typ="real">1050</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">44100</cena>
+</oferta>
+<oferta>
+<id>90</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Musuły</param>
+<param nazwa="dzielnica" typ="text">Musuły</param>
+<param nazwa="okolica" typ="text">Żabia Wola</param>
+<param nazwa="powierzchnia" typ="real">1900</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">78000</cena>
+</oferta>
+<oferta>
+<id>91</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Osowiec</param>
+<param nazwa="dzielnica" typ="text">Osowiec</param>
+<param nazwa="okolica" typ="text">Żabia Wola</param>
+<param nazwa="powierzchnia" typ="real">13600</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">tylko prąd w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">435200</cena>
+</oferta>
+<oferta>
+<id>92</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Szczęsne</param>
+<param nazwa="dzielnica" typ="text">Szczęsne</param>
+<param nazwa="okolica" typ="text">Grodziska Maz.</param>
+<param nazwa="powierzchnia" typ="real">1458</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">72000</cena>
+</oferta>
+<oferta>
+<id>93</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Szczęsne</param>
+<param nazwa="dzielnica" typ="text">Szczęsne</param>
+<param nazwa="okolica" typ="text">Grodziska Maz.</param>
+<param nazwa="powierzchnia" typ="real">1693</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">49000</cena>
+</oferta>
+<oferta>
+<id>94</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsne</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">1617</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">47000</cena>
+</oferta>
+<oferta>
+<id>95</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Szczęsne</param>
+<param nazwa="okolica" typ="text">Szczęsne</param>
+<param nazwa="powierzchnia" typ="real">1692</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">49000</cena>
+</oferta>
+<oferta>
+<id>96</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Osowiec</param>
+<param nazwa="dzielnica" typ="text">Osowiec</param>
+<param nazwa="okolica" typ="text">Żabia Wola</param>
+<param nazwa="powierzchnia" typ="real">1500</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text"> w drodze prąd</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">45000</cena>
+</oferta>
+<oferta>
+<id>97</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Janinów</param>
+<param nazwa="dzielnica" typ="text">Janinów</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">2100</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">73500</cena>
+</oferta>
+<oferta>
+<id>98</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Błonie</param>
+<param nazwa="dzielnica" typ="text">Bramki</param>
+<param nazwa="okolica" typ="text">Błonia</param>
+<param nazwa="powierzchnia" typ="real">7500</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text"> na działce</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">315000</cena>
+</oferta>
+<oferta>
+<id>99</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Mialnówek</param>
+<param nazwa="dzielnica" typ="text">Opypy</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="powierzchnia" typ="real">1500</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">63000</cena>
+</oferta>
+<oferta>
+<id>100</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Opypy</param>
+<param nazwa="dzielnica" typ="text">Opypy</param>
+<param nazwa="okolica" typ="text">Mialnówek</param>
+<param nazwa="powierzchnia" typ="real">2000</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">67000</cena>
+</oferta>
+<oferta>
+<id>101</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Opypy</param>
+<param nazwa="dzielnica" typ="text">Opypy</param>
+<param nazwa="okolica" typ="text">Mialnówek</param>
+<param nazwa="powierzchnia" typ="real">1724</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">57000</cena>
+</oferta>
+<oferta>
+<id>102</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Opypy</param>
+<param nazwa="dzielnica" typ="text">Opypy</param>
+<param nazwa="okolica" typ="text">Mialnówek</param>
+<param nazwa="powierzchnia" typ="real">3300</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">83000</cena>
+</oferta>
+<oferta>
+<id>103</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Władkowo</param>
+<param nazwa="dzielnica" typ="text">Władkowo</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">7133</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">brak</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">86000</cena>
+</oferta>
+<oferta>
+<id>104</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Traugutta</param>
+<param nazwa="okolica" typ="text">Traugutta</param>
+<param nazwa="powierzchnia" typ="real">1103</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prąd w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">59000</cena>
+</oferta>
+<oferta>
+<id>105</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Chełmońskiego</param>
+<param nazwa="okolica" typ="text">Chełmońskiego</param>
+<param nazwa="powierzchnia" typ="real">1500</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">75000</cena>
+</oferta>
+<oferta>
+<id>106</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Chełmońskiego</param>
+<param nazwa="okolica" typ="text">Chełmońskiego</param>
+<param nazwa="powierzchnia" typ="real">2250</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">112000</cena>
+</oferta>
+<oferta>
+<id>107</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Chełmońskiego</param>
+<param nazwa="okolica" typ="text">Chełmońskiego</param>
+<param nazwa="powierzchnia" typ="real">1620</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">80000</cena>
+</oferta>
+<oferta>
+<id>108</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">1099</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">wszystkie media w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">115000</cena>
+</oferta>
+<oferta>
+<id>109</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Makówka</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">1510</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">37750</cena>
+</oferta>
+<oferta>
+<id>110</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Szczęsne</param>
+<param nazwa="dzielnica" typ="text">Szczęsne</param>
+<param nazwa="okolica" typ="text">Grodziska Maz.</param>
+<param nazwa="powierzchnia" typ="real">5000</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w drodze</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">168000</cena>
+</oferta>
+<oferta>
+<id>111</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Opypy</param>
+<param nazwa="okolica" typ="text">Opypy</param>
+<param nazwa="powierzchnia" typ="real">1613</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">brak</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">54000</cena>
+</oferta>
+<oferta>
+<id>112</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Błonie</param>
+<param nazwa="dzielnica" typ="text">Błonie</param>
+<param nazwa="okolica" typ="text">Błonie</param>
+<param nazwa="powierzchnia" typ="real">1500</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">52500</cena>
+</oferta>
+<oferta>
+<id>113</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Błonie</param>
+<param nazwa="dzielnica" typ="text">Błonie</param>
+<param nazwa="okolica" typ="text">Błonie</param>
+<param nazwa="powierzchnia" typ="real">1182</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">59100</cena>
+</oferta>
+<oferta>
+<id>117</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Mialnówek</param>
+<param nazwa="dzielnica" typ="text">Grudów</param>
+<param nazwa="okolica" typ="text">Grudów</param>
+<param nazwa="powierzchnia" typ="real">1543</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">woda, prąd, gaz.</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">162000</cena>
+</oferta>
+<oferta>
+<id>119</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kozerki</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">7133</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">woda, prąd</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">86000</cena>
+</oferta>
+<oferta>
+<id>120</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Żabia Wola</param>
+<param nazwa="dzielnica" typ="text">Żabia Wola</param>
+<param nazwa="okolica" typ="text">Żabia Wola</param>
+<param nazwa="powierzchnia" typ="real">4500</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd, woda</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">40000</cena>
+</oferta>
+<oferta>
+<id>121</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Grodzisk Maz.</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">36300</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">170000</cena>
+</oferta>
+<oferta>
+<id>123</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Piaskowa</param>
+<param nazwa="okolica" typ="text">Nadarzyńskiej</param>
+<param nazwa="powierzchnia" typ="real">1499</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">w ulicy</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">75500</cena>
+</oferta>
+<oferta>
+<id>129</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kozery</param>
+<param nazwa="okolica" typ="text">Grodzisk</param>
+<param nazwa="powierzchnia" typ="real">1500</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">częściowe</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">37500</cena>
+</oferta>
+<oferta>
+<id>136</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Żabia Wola</param>
+<param nazwa="dzielnica" typ="text">Żabia Wola</param>
+<param nazwa="okolica" typ="text">Bolesławek</param>
+<param nazwa="powierzchnia" typ="real">16300</param>
+<param nazwa="typpodlaczeniawody" typ="text">studnia</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">68000</cena>
+</oferta>
+<oferta>
+<id>137</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Terenia</param>
+<param nazwa="dzielnica" typ="text">Terenia</param>
+<param nazwa="okolica" typ="text">Brwinowa</param>
+<param nazwa="powierzchnia" typ="real">17900</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prąd</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">293000</cena>
+</oferta>
+<oferta>
+<id>138</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Terenia</param>
+<param nazwa="dzielnica" typ="text">Terenia</param>
+<param nazwa="okolica" typ="text">Brwinowa</param>
+<param nazwa="powierzchnia" typ="real">24400</param>
+<param nazwa="typpodlaczeniawody" typ="text">Brak</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prad</param>
+<param nazwa="typdzialki" typ="text">rolna</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">400000</cena>
+</oferta>
+<oferta>
+<id>144</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Milanówek</param>
+<param nazwa="dzielnica" typ="text">Milanówek</param>
+<param nazwa="okolica" typ="text">Milanówek</param>
+<param nazwa="powierzchnia" typ="real">1549</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">prąd i studnia na działce</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">172000</cena>
+</oferta>
+<oferta>
+<id>145</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">804</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">pełne</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">64320</cena>
+</oferta>
+<oferta>
+<id>146</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Bairda</param>
+<param nazwa="okolica" typ="text">Bairda</param>
+<param nazwa="powierzchnia" typ="real">1230</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">pełne</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">98400</cena>
+</oferta>
+<oferta>
+<id>153</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kozery</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">892</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">orąd</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">30000</cena>
+</oferta>
+<oferta>
+<id>154</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">Kozery</param>
+<param nazwa="okolica" typ="text">Grodzisk Maz.</param>
+<param nazwa="powierzchnia" typ="real">743</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">brak</param>
+<param nazwa="uzbrojenie" typ="text">prąd</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">25000</cena>
+</oferta>
+<oferta>
+<id>155</id>
+<param nazwa="wojewodztwo" typ="text">mazowieckie</param>
+<param nazwa="miasto" typ="text">Grodzisk Maz.</param>
+<param nazwa="dzielnica" typ="text">centrum</param>
+<param nazwa="okolica" typ="text">centrum</param>
+<param nazwa="powierzchnia" typ="real">619</param>
+<param nazwa="typpodlaczeniawody" typ="text">wodociąg</param>
+<param nazwa="gaz" typ="text">miejski</param>
+<param nazwa="uzbrojenie" typ="text">pełne</param>
+<param nazwa="typdzialki" typ="text">budowlana</param>
+<param nazwa="opis" typ="text"></param>
+<cena waluta="PLN">80000</cena>
+</oferta>
+</dzial>
+<dzial tab="lokale" typ="sprzedaz">
+</dzial>
+<dzial tab="lokale" typ="wynajem">
+</dzial>
+</lista_ofert>
+</plik>

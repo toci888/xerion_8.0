@@ -1,0 +1,3 @@
+dropdb newazg
+createdb newazg 
+###-E UNICODE

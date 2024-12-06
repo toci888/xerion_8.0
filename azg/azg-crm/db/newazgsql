@@ -1,0 +1,9 @@
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/nierazg.sql /home/postgres/azg/nierazg.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/db\ sql.sql /home/postgres/azg/newazg.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/dane_i_konfiguracja.sql /home/postgres/azg/dane_i_konf.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/migracja/data_move.sql /home/postgres/azg/data_move.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/proc_db.sql /home/postgres/azg/proc_db.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/migracja/wyczysc_obce_dane.sql /home/postgres/azg/wyczysc_obce.sql
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/tlumaczenia.sql /home/postgres/azg/tlumaczenia.sql
+chown -R postgres.postgres *
+chmod -R 755 *

@@ -1,0 +1,321 @@
+ public     	 agenciwpiskalendarz                       	 text                                      	 kalendarz_id integer
+ public     	 agentwersjaoficjalna                      	 setof slownik                             	 jezyk_id integer
+ public     	 aktdeaktoferta                            	 boolean                                   	 oferta_id integer, akt boolean
+ public     	 aktualizujagent                           	 boolean                                   	 id_a integer, nazwa_t text, tel text, komorka_t text, fax_t text, email_t text, dod_upr boolean, ed_upr b
+oolean, kas_upr boolean, druk_upr boolean, adm_klient_upr boolean, adm_dane_upr boolean, zmiana_upr_upr boolean, lic_num integer, agent_nad integer
+ public     	 aktywujkonto                              	 boolean                                   	 login_t text, aktywuj boolean
+ public     	 boom                                      	 text[]                                    	 delimiter character varying, datatoexplode text
+ public     	 brakujaceprowizje                         	 setof prowizjenieuzupelnionezap           	 zapotrzebowanie_id integer
+ public     	 convtotag                                 	 text                                      	 textfc character varying
+ public     	 daneslownik                               	 setof slownik                             	 nazwa_slow text
+ public     	 dodajadresosoba                           	 void                                      	 osoba_id integer, region_id integer, kod text, ul_adr text, num_dom text, num_miesz text
+ public     	 dodajdokosoba                             	 boolean                                   	 osoba_id integer, dowod_tozsamosc_id integer, dowod_nr text
+ public     	 dodajemail                                	 boolean                                   	 mail_id integer, osoba_id integer, adr_email text, opis_email text
+ public     	 dodajemailmedia                           	 boolean                                   	 email_media_nieruchomosc_id integer, media_nieruchomosc_id integer, mail text, opis_t text
+ public     	 dodajfilm                                 	 text                                      	 nieruchomosc_id integer, rozszerzenie text
+ public     	 dodajimie                                 	 integer                                   	 imie_txt text
+ public     	 dodajklient                               	 slownik                                   	 klient_id integer, osobowosc_id integer, agent_id integer, firma_dane text[]
+ public     	 dodajkomorka                              	 boolean                                   	 osoba_id integer, nr_tel text, opis_tel text
+ public     	 dodajkontaktmedianier                     	 boolean                                   	 media_nieruchomosc_id integer, agent_id integer, koment text
+ public     	 dodajmedianieruchomosc                    	 slownik                                   	 nier_rodzaj_id integer, trans_rodzaj_id integer, region_id integer, status_id integer, ulica_lok text, is
+_oferent boolean, powierzchnia_t text, cena_t text, opis_n_t text, przyp_data date, medium_id integer, koment text, agent_id integer, nazwisko_os text, imie_os integer, telefon_os text, tel_opis text, email_
+os text, email_opis text
+ public     	 dodajmedianieruchomoscos                  	 slownik                                   	 nier_rodzaj_id integer, trans_rodzaj_id integer, region_id integer, status_id integer, ulica_lok text, is
+_oferent boolean, powierzchnia_t text, cena_t text, opis_n_t text, przyp_data date, koment text, agent_id integer, osoba_id integer
+ public     	 dodajnierzapotrzebowanie                  	 void                                      	 zapotrzebowanie_id integer, nier_rodzaj_id integer[], opupdate boolean
+ public     	 dodajnotatkaklient                        	 boolean                                   	 klient_id integer, agent_id integer, tresc_t text
+ public     	 dodajoferta                               	 dodanieoferta                             	 oferta_id integer, rodz_trans_id integer, status_id integer, otw_zlec_data date, zam_zlec_data date, cena
+_t text, priorytet_id integer, prow_proc boolean, prowizja_t text, wyl boolean, pokaz_t boolean, czas_przek integer, przek_od_otw boolean, nier_rodzaj_id integer, nier_szcz_id integer, klient_id integer, reg
+ion_id integer, ulica_t text, ulica_net_t text, kod_t text, agent_id integer, rynek boolean, klucz_b boolean, osoba_id integer, podpis_cena boolean
+ public     	 dodajoferta                               	 void                                      	 kol_tab text[], nier_id integer, klient_id integer, num_of integer, nazwa_tab text
+ public     	 dodajogladanie                            	 boolean                                   	 oferta_id integer, zapotrzebowanie_id integer, agent_id integer, data_ogl date, godzina_id integer, minut
+a_id integer, osoby integer[]
+ public     	 dodajopisnieruchomosc                     	 boolean                                   	 nieruchomosc_id integer, agent_id integer, notatka text
+ public     	 dodajopisoferta                           	 boolean                                   	 opis_id integer, oferta_id integer, jezyk_id integer, tresc text
+ public     	 dodajopisposzzapotrzebowanie              	 boolean                                   	 zapotrzebowanie_trans_rodzaj_id integer, agent_id integer, notatka text
+ public     	 dodajopiszapotrzebowanie                  	 boolean                                   	 zapotrzebowanie_id integer, agent_id integer, notatka text, oferta_id integer, zainter_b boolean, cena_of
+ text
+ public     	 dodajopiszapotrzebowanietrrodz            	 boolean                                   	 opis_id integer, zapotrzebowanie_trans_rodzaj_id integer, jezyk_id integer, tresc text
+ public     	 dodajosoba                                	 slownik                                   	 osoba_id integer, imie_id integer, nazw text, nazw_rod text, pesel_t text, dow_toz_id integer, dowod_nr t
+ext, region_geog_id integer, agent_id integer, dane_adres text[], klient_id integer, tel text[], tel_kom text[], adres_email text[]
+ public     	 dodajosobaklient                          	 boolean                                   	 klient_id integer, osoba_id integer
+ public     	 dodajosobaoferta                          	 boolean                                   	 osoba_id integer, oferta_id integer
+ public     	 dodajosobaogladanie                       	 boolean                                   	 ogladanie_id integer, osoba_id integer
+ public     	 dodajosobazapotrzebowanie                 	 boolean                                   	 zapotrzebowanie_id integer, osoba_id integer
+ public     	 dodajparametrnier                         	 boolean                                   	 op_dodawania boolean, nieruchomosc_id integer, parametr_id integer, informacja text
+ public     	 dodajparametrpom                          	 boolean                                   	 op_dodawania boolean, pomieszczenie_id integer, parametr_id integer, informacja text
+ public     	 dodajparametrzap                          	 boolean                                   	 op_dodawania boolean, min_b boolean, zapotrzebowanie_trans_rodzaj_id integer, parametr_id integer, inform
+acja text
+ public     	 dodajpomieszczenienier                    	 integer                                   	 nieruchomosc_id integer, pomieszczenie_id integer
+ public     	 dodajprowdlatrans                         	 boolean                                   	 prow_zap_id integer, zapotrzebowanie_id integer, trans_id integer, prow text, prow_proc boolean, spos_fin
+_id integer, posz_dla text
+ public     	 dodajreggeogzap                           	 slownik                                   	 zapotrzebowanie_trans_rodzaj_id integer, reg_id integer
+ public     	 dodajregiongeog                           	 boolean                                   	 id_rec integer, nazwa_r text, pokaz_b boolean, parent_id integer, otodom_id integer
+ public     	 dodajreklamamedia                         	 boolean                                   	 media_nieruchomosc_id integer, media_reklama_id integer, akt_data date
+ public     	 dodajspotkanie                            	 slownik                                   	 spotkanie_id_o integer, spotkanie_id_k integer, oferta_id integer, zapotrzebowanie_id integer, umowienie_
+id integer, agent_id integer, sp_data date, sp_godzina_id integer, sp_minuta_id integer, komentarz_t text, osoby_ogl integer[], osoby_pok integer[]
+ public     	 dodajspotkaniepomkal                      	 slownik                                   	 spotkanie_id integer, oferta_id integer, zapotrzebowanie_id integer, is_oferent boolean, umowienie_id int
+eger, agent_id integer, sp_data date, sp_godzina_id integer, sp_minuta_id integer, komentarz_t text, osoby integer[]
+ public     	 dodajsubskrypcja                          	 slownik                                   	 nier_rodzaj_id integer, trans_rodzaj_id integer, min_cena double precision, max_cena double precision, ad
+res_email text, jezyk_id integer
+ public     	 dodajszczegnierzap                        	 boolean                                   	 zapotrzebowanie_id integer, szczeg_id integer
+ public     	 dodajtelefon                              	 boolean                                   	 tel_id integer, osoba_id integer, nr_tel text, opis_tel text, powrot boolean
+ public     	 dodajtelefonmedia                         	 boolean                                   	 telefon_media_nieruchomosc_id integer, media_nieruchomosc_id integer, tel text, opis_t text, powrot boole
+an
+ public     	 dodajtransnierzapotrzebowanie             	 boolean                                   	 zapotrzebowanie_trans_rodzaj_id integer, zapotrzebowanie_nier_rodzaj_id integer, trans_rodzaj_id integer,
+ status_id integer, cena_t text, pokaz_t boolean
+ public     	 dodajwlasciciel                           	 boolean                                   	 wlasciciel_id integer, nieruchomosc_id integer, osoba_id integer, proc_udzial double precision
+ public     	 dodajwyposazenienier                      	 boolean                                   	 op_dodawania boolean, nieruchomosc_id integer, wyposazenie_id integer
+ public     	 dodajwyposazeniepom                       	 boolean                                   	 op_dodawania boolean, pomieszczenie_id integer, wyposazenie_id integer
+ public     	 dodajwyposazeniezap                       	 boolean                                   	 op_dodawania boolean, zapotrzebowanie_trans_rodzaj_id integer, wyposazenie_id integer
+ public     	 dodajzapotrzebowanie                      	 integer                                   	 zapotrzebowanie_id integer, nier_rodzaj_id integer[], otw_zlec_data date, zam_zlec_data date, klient_id i
+nteger, agent_id integer
+ public     	 dodajzapotrznierszczeg                    	 boolean                                   	 op_dodaj boolean, zapotrzebowanie_trans_rodzaj_id integer, nier_szczeg_id integer
+ public     	 dodajzdjecie                              	 text                                      	 nieruchomosc_id integer, rozszerzenie text
+ public     	 dodajzdjecieimport                        	 text                                      	 nieruchomosc_id integer, rozszerzenie text, stara_nazwa text
+ public     	 dowregiongeograficzny                     	 setof reggeog                             	 wojewodztwo_id integer, text_nazwa text
+ public     	 edycjaklient                              	 klientoferta                              	 klient_id integer
+ public     	 edycjaoferta                              	 setof ofertanieruchomosc                  	 id_oferta integer
+ public     	 edycjaosoba                               	 osobaedycja                               	 osoba_id integer
+ public     	 edycjaparametrpom                         	 setof pomieszczenieparamedycja            	 pom_id integer
+ public     	 edycjapomieszczenianieruchomosc           	 setof pomieszczenianieruchomosc           	 tab_pom integer[]
+ public     	 edycjatransnierzapotrzebowanie            	 zapotrztransnierrodzaj                    	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 edycjawyposazeniepom                      	 setof integer                             	 pom_id integer
+ public     	 edycjazapotrzebowanie                     	 zapotrzebowanienieruchomosc               	 zapotrzebowanie_id integer
+ public     	 edycjazaptransrodzajwyppar                	 zapotrzebowanienieruchomoscwyppar         	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 edytujmedianieruchomosc                   	 medianieruchomoscedycja                   	 media_nieruchomosc_id integer
+ public     	 explode                                   	 text[]                                    	 datatoexplode text
+ public     	 filtracjapodstawowewersjeofert            	 setof oferty_wersja_pods                  	 nier_rodzaj_id integer, trans_rodzaj_id integer, pow_min double precision, pow_max double precision, cena
+_max text
+ public     	 filtrujoferty                             	 setof oferty                              	 nier_rodzaj_id integer, trans_rodzaj_id integer, status_id integer, agent_id integer, sort_kol text, sort
+_kier integer
+ public     	 filtrujzapotrzebowania                    	 setof zapotrztransnierrodzaj              	 nier_rodzaj_id integer, trans_rodzaj_id integer, status_id integer, agent_id integer, sort_kol text, sort
+_kier integer
+ public     	 kalendarzadm                              	 setof listakalendarz                      	 agent_id integer, data_od date, data_do date
+ public     	 kasujregiongeog                           	 boolean                                   	 region_id integer
+ public     	 kojarzeniebazowedlaoferty                 	 setof zapotrztransnierrodzaj              	 oferta_id integer, poziom_param integer, poziom_wyp integer, nowe boolean
+ public     	 kojarzeniebazowedlazapotrzebowania        	 setof szukajofertanierview                	 zapotrzebowanie_trans_rodzaj_id integer, poziom_param integer, poziom_wyp integer, nowe boolean
+ public     	 kojarzenielokalizacje                     	 boolean                                   	 nieruchomosc_id integer, zapotrzebowanie_trans_rodzaj_id integer
+ public     	 kojarzenielokalizacjemedia                	 boolean                                   	 media_of_id integer, media_zap_id integer
+ public     	 kojarzenielokalizacjemediaoferta          	 boolean                                   	 nieruchomosc_id integer, media_zap_id integer
+ public     	 kojarzenielokalizacjemediazapotrzebowanie 	 boolean                                   	 media_of_id integer, zapotrzebowanie_trans_rodzaj_id integer
+ public     	 kojarzeniemedia                           	 setof medianieruchomosc                   	 media_nieruchomosc_id integer, is_oferent boolean
+ public     	 kojarzeniemediaoferta                     	 setof szukajofertanierview                	 media_nieruchomosc_id integer
+ public     	 kojarzeniemediazapotrzebowanie            	 setof zapotrztransnierrodzaj              	 media_nieruchomosc_id integer
+ public     	 kojarzenienpoziomowe                      	 boolean                                   	 nieruchomosc_id integer, zapotrzebowanie_trans_rodzaj_id integer, poziom integer
+ public     	 kojarzenienpoziomowewyp                   	 boolean                                   	 nieruchomosc_id integer, zapotrzebowanie_trans_rodzaj_id integer, poziom integer
+ public     	 kojarzenieofertamedia                     	 setof medianieruchomosc                   	 oferta_id integer
+ public     	 kojarzeniezapotrzebowaniemedia            	 setof medianieruchomosc                   	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 listaagentow                              	 setof listaagent                          	
+ public     	 listaprowdlatrans                         	 setof prowizjezapotrzebowanie             	 zapotrzebowanie_id integer
+ public     	 logowanie                                 	 logowanieobj                              	 login_t text, passwd text
+ public     	 maillistawysylka                          	 setof slownik                             	 region_id integer[]
+ public     	 mediaosoba                                	 setof medianieruchomosc                   	 osoba_id integer
+ public     	 mediataknieofertyexport                   	 boolean                                   	 nieruchomosc_id integer, nazwa_wyp text, zaglebienie integer
+ public     	 migratetotags                             	 setof text                                	 tab_cur_dict text, col_cur_dict text, col_cur_id text
+ public     	 nazwaregion                               	 setof slownik                             	 region_id integer
+ public     	 nierdaneoferta                            	 nieroferta                                	 oferta_id integer
+ public     	 nieruchomoscszczeg                        	 void                                      	 rodzaj_nier text, tab_szcz text, kol_szcz text, id_szcz text
+ public     	 niezgodamail                              	 boolean                                   	 hash text
+ public     	 obnizzdjecie                              	 boolean                                   	 zdjecie_id integer, nieruchomosc_id integer
+ public     	 ofertainfosekcje                          	 setof oferta_sekcje                       	 nieruchomosc_id integer, nier_rodzaj_id integer, trans_rodzaj_id integer
+ public     	 ofertaklient                              	 setof szukajofertanierview                	 osoba_id integer, status_id_n integer
+ public     	 ofertaogladnieta                          	 ofertaogldane                             	 oferta_id integer, jezyk_id integer
+ public     	 ofertaopisy                               	 setof opis                                	 oferta_id integer
+ public     	 ofertapelnawersja                         	 oferty_wersja_pelna                       	 oferta_id integer, jezyk_id integer
+ public     	 ofertapomieszczenia                       	 setof oferta_pomieszczenia                	 nieruchomosc_id integer, nier_rodzaj_id integer
+ public     	 ofertapublikuj                            	 boolean                                   	 oferta_id integer
+ public     	 ofertaschowaj                             	 boolean                                   	 oferta_id integer
+ public     	 ofertynowosci                             	 setof oferta_nowosc                       	
+ public     	 ofertyogladniete                          	 setof ofertaogladanaklient                	 zapotrzebowanie_id integer, jezyk_id integer
+ public     	 ofertysubskrypcja                         	 setof ofertasubskrypcja                   	
+ public     	 ogladanienieaktywne                       	 boolean                                   	 ogladanie_id integer, agent_id integer
+ public     	 ogloszeniedomiporta                       	 date                                      	 oferta_id integer, insertion_id integer, okresy integer
+ public     	 ogloszenieofertynet                       	 date                                      	 oferta_id integer
+ public     	 ogloszenieotodom                          	 date                                      	 oferta_id integer, insertion_id integer, okresy integer
+ public     	 oneleveldict                              	 void                                      	 parent_tag character varying, waga_el integer, id_sek integer, tlum_pol text, tlum_eng text, tlum_ger tex
+t
+ public     	 parametryofertyexport                     	 text                                      	 nieruchomosc_id integer, nazwa_param text
+ public     	 paramsdict                                	 void                                      	 parent_tag character varying, waga_el integer, id_sek integer, id_wal integer, tlum_pol text, tlum_eng te
+xt, tlum_ger text, dlug_inf integer
+ public     	 paramsdictroom                            	 void                                      	 parent_tag character varying, waga_el integer, id_sek integer, id_wal integer, tlum_pol text, tlum_eng te
+xt, tlum_ger text, dlug_inf integer
+ public     	 pelnezagnregion                           	 slownik                                   	 region_id integer
+ public     	 pobierzparametrynier                      	 setof parniersekcja                       	 trans_id integer, nier_id integer
+ public     	 pobierzparametrypomnier                   	 setof parnierpom                          	 pom_id integer
+ public     	 pobierzpomieszczenianieruchomosc          	 setof slownik                             	 nier_rodzaj_id integer
+ public     	 pobierzpomprzynnier                       	 setof pomprzynnier                        	 nieruchomosc_id integer, pomieszczenie_id integer
+ public     	 pobierzwyposazenienier                    	 setof wypniersekcja                       	 trans_id integer, nier_id integer
+ public     	 pobierzwyposazeniepomnier                 	 setof wypnierpom                          	 pom_id integer
+ public     	 podajagentedycja                          	 agent                                     	 agent_id integer
+ public     	 podajagentow                              	 setof slownik                             	
+ public     	 podajdaneumowa                            	 umowadane                                 	 zapotrzebowanie_id integer
+ public     	 podajdanezapotrzebowanie                  	 zapotrzebowaniedane                       	 zapotrzebowanie_id integer, oferta_id integer
+ public     	 podajdokosoba                             	 setof podajdodanedowosoba                 	 osoba_id integer
+ public     	 podajdostdokosoba                         	 setof podajdostdowosoba                   	 osoba_id integer
+ public     	 podajdostepnespotkania                    	 setof spotkaniaklient                     	 oferta_id integer
+ public     	 podajdostopisoferta                       	 setof podajdostopisyoferta                	 oferta_id integer
+ public     	 podajdostopiszapotrzebowanietrrodz        	 setof podajdostopisyzapotrzebowanietrrodz 	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajdostoswlas                           	 setof podajdostoswlasciciel               	 nieruchomosc_id integer
+ public     	 podajdostprocudzialwlasnier               	 double precision                          	 nieruchomosc_id integer, osoba_id integer
+ public     	 podajdostzapotrznierszczeg                	 setof slownik                             	 zapotrzebowanie_trans_rodzaj_id integer, nier_rodzaj_id integer
+ public     	 podajemaile                               	 setof email_osoba                         	 osoba_id integer
+ public     	 podajemailmedia                           	 setof email_media_nieruchomosc            	 media_nieruchomosc_id integer
+ public     	 podajfilmy                                	 setof slownik                             	 nieruchomosc_id integer, sciezka text
+ public     	 podajidtransidnierzapotrzebowanie         	 zapotrzebowanieidtransidnier              	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajinsotodomidpoofid                    	 integer                                   	 oferta_id integer
+ public     	 podajjezykiid                             	 setof integer                             	
+ public     	 podajklientosoba                          	 setof slownik                             	 osoba_id integer
+ public     	 podajkomorka                              	 setof komorka                             	 osoba_id integer
+ public     	 podajkontaktymedianier                    	 setof kontaktmedianier                    	 media_nieruchomosc_id integer
+ public     	 podajkontoagenta                          	 setof slownik                             	 agent_id integer
+ public     	 podajlistaofertpublikacjaofertynet        	 setof ofertaofnet                         	
+ public     	 podajlistawskoferta                       	 setof listawskazanzapotrzebowanie         	 oferta_id integer
+ public     	 podajlistawskzapotrzebowanie              	 setof listawskzapotrzebowanie             	 zapotrzebowanie_id integer
+ public     	 podajmedianaczasie                        	 setof medianieruchomosc                   	 agent_id integer
+ public     	 podajmediumdlaofzap                       	 setof medianieruchomosc                   	 of_zap_id integer, is_oferent boolean
+ public     	 podajnazwaagentid                         	 slownik                                   	 agent_id integer
+ public     	 podajnier                                 	 setof slownik                             	
+ public     	 podajnierdlatrans                         	 setof slownik                             	 trans_id integer
+ public     	 podajnierzapotrzebowanie                  	 setof slownik                             	 zapotrzebowanie_id integer
+ public     	 podajnotatkaklient                        	 setof notatkiklient                       	 klient_id integer
+ public     	 podajnotatkanieruchomosc                  	 setof notatkinieruchomosc                 	 nieruchomosc_id integer
+ public     	 podajnotatkanieruchomoscofid              	 setof notatkinieruchomosc                 	 oferta_id integer
+ public     	 podajoferencispotkaniezapotrzebowanie     	 setof spotkaniaklient                     	 zapotrzebowanie_id integer
+ public     	 podajofertadolistawsk                     	 ofertalistawskazan                        	 oferta_id integer, jezyk_id integer
+ public     	 podajofertadomiporta                      	 ofertadomiporta                           	 oferta_id integer, automat boolean
+ public     	 podajofertaofertynet                      	 ofertaofnet                               	 oferta_id integer
+ public     	 podajofertaotodom                         	 ofertaotodom                              	 oferta_id integer, automat boolean
+ public     	 podajofertydeaktywacja                    	 setof integer                             	 portal_nazwa text
+ public     	 podajofertydeaktywacjaofertynet           	 setof oferta_usun                         	
+ public     	 podajofertymedia                          	 setof medianieruchomosc                   	 is_oferent text, tel text, nier_rodzaj_id integer, trans_rodzaj_id integer, data_od date, data_do date, s
+ort_kol text, sort_kier integer
+ public     	 podajofertymediaprzyjecie                 	 setof medianieruchomosc                   	 is_oferent boolean, tel text, nier_rodzaj_id integer, trans_rodzaj_id integer
+ public     	 podajofertyprolongata                     	 setof integer                             	 portal_nazwa text
+ public     	 podajofertytelefon                        	 setof szukajofertawszystkieos             	 tel text
+ public     	 podajofidpoinsotodom                      	 integer                                   	 otodom_id integer
+ public     	 podajopisoferta                           	 setof podajopisyoferta                    	 oferta_id integer
+ public     	 podajopisoferty                           	 text                                      	 oferta_id integer, jezyk_id integer, nier_rodzaj_id integer, rodz_budynek_id integer, nieruchomosc_id int
+eger
+ public     	 podajopisposzzapotrzebowanie              	 setof notatkiposzzapotrzebowanie          	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajopiszapotrzebowanie                  	 setof notatkizapotrzebowanie              	 zapotrzebowanie_id integer
+ public     	 podajopiszapotrzebowanietrrodz            	 setof podajopisyzapotrzebowanietrrodz     	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajosdostlistawsk                       	 setof osobaview                           	 zapotrzebowanie_id integer, oferta_id integer
+ public     	 podajoslistawsk                           	 setof podajoslistawsk                     	 lista_wsk_adr_id integer
+ public     	 podajosobadane                            	 setof osobaview                           	 osoba_id integer
+ public     	 podajosobaklient                          	 setof osobaklient                         	 klient_id integer
+ public     	 podajosobaklientofid                      	 setof osobaklient                         	 oferta_id integer
+ public     	 podajosobaklientpozap                     	 setof osobaklient                         	 zapotrzebowanie_id integer
+ public     	 podajosobaklientzapid                     	 setof osobaklient                         	 zapotrzebowanie_id integer
+ public     	 podajosobaklientzmcena                    	 setof slownik                             	 klient_id integer
+ public     	 podajosobaoferta                          	 setof osobaoferta                         	 oferta_id integer
+ public     	 podajosobazapotrzebowanie                 	 setof osobaview                           	 zapotrzebowanie_id integer
+ public     	 podajospokofspotkanie                     	 integer                                   	 spotkanie_kl_id integer
+ public     	 podajprzypomnieniamedia                   	 setof medianieruchomosc                   	 agent_id integer
+ public     	 podajreggeogzap                           	 setof reggeog                             	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajregionygeog                          	 setof region_geog                         	 parent_id integer
+ public     	 podajreklamamedia                         	 setof reklamamedia                        	 media_nieruchomosc_id integer
+ public     	 podajrodzajoferta                         	 ofertarodzaj                              	 nier_rodzaj_id integer, trans_rodzaj_id integer
+ public     	 podajrodzic                               	 integer                                   	 region_id integer
+ public     	 podajspotkanieedycja                      	 spotkaniaklientedycja                     	 spotkanie_id integer
+ public     	 podajspotkanieoferta                      	 setof spotkaniaklient                     	 oferta_id integer, oferent_b boolean
+ public     	 podajspotkanieosoba                       	 setof spotkaniaklient                     	 osoba_id integer, oferent_b boolean
+ public     	 podajspotkaniezapotrzebowanie             	 setof spotkaniaklient                     	 zapotrzebowanie_id integer
+ public     	 podajtelefonmedia                         	 setof telefon_media_nieruchomosc          	 media_nieruchomosc_id integer
+ public     	 podajtelefony                             	 setof telefon                             	 osoba_id integer
+ public     	 podajtransdlanier                         	 setof slownik                             	 nier_id integer, of_zap text
+ public     	 podajtransdlanierzapotrzebowanie          	 setof slownik                             	 zapotrzebowanie_nier_rodzaj_id integer
+ public     	 podajtransnierzapotrzebowanie             	 setof zapotrztransnierrodzaj              	 zapotrzebowanie_id integer
+ public     	 podajtransrodzaj                          	 setof slownik                             	 of_zap text
+ public     	 podajwlascicielenier                      	 setof podajwlascicielnieruchomosc         	 nieruchomosc_id integer
+ public     	 podajwojewodztwa                          	 setof slownik                             	
+ public     	 podajwpiskalendarz                        	 kalendarzedycja                           	 kalendarz_id integer
+ public     	 podajzapotrzebowanietelefon               	 setof szukajzapotrzebowaniewszystkieos    	 tel text
+ public     	 podajzapotrznierszczeg                    	 setof slownik                             	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 podajzdjecia                              	 setof slownik                             	 nieruchomosc_id integer, sciezka text
+ public     	 podnieszdjecie                            	 boolean                                   	 zdjecie_id integer, nieruchomosc_id integer
+ public     	 podstawoweparamwypos                      	 setof pods_param_wypos                    	
+ public     	 podstawowewersjeofert                     	 setof oferty_wersja_pods                  	 nier_rodzaj_id integer, trans_rodzaj_id integer
+ public     	 pokazkalendarz                            	 setof listakalendarz                      	 agent_id integer, data_w date
+ public     	 pokazrozmowy                              	 setof rejestracja_centralka               	 dzwonienie_status_id integer
+ public     	 pokazwybraneparamoferta                   	 setof slownik                             	 oferta_id integer, poziom integer
+ public     	 pokazwybraneparamzlecenie                 	 setof slownik                             	 zapotrzebowanie_trans_rodzaj_id integer, poziom integer
+ public     	 poprawnieisof                             	 void                                      	
+ public     	 przeniesdanenieruchomosc                  	 void                                      	 new_id integer, tab_nazwa text, kol_id text, old_id_n integer
+ public     	 przeniesgazeta                            	 void                                      	 nier_id integer, sprz_id integer, tabela text, pow text[], pokoje boolean
+ public     	 przenieslistawskazan                      	 void                                      	
+ public     	 przeniespomieszczenienieruchomosc         	 void                                      	 new_id integer, tab_nazwa text, kol_id text, old_id_n integer
+ public     	 przeniespubotodom                         	 void                                      	
+ public     	 przenieszdjecie                           	 void                                      	 new_nier_id integer, old_id_nier integer, tab_nazwa text, kol_id text
+ public     	 przepiszklient                            	 void                                      	
+ public     	 przepisznieruchomosc                      	 void                                      	 num_of integer, nazwa_tab text, klient_id integer, kol_tab text[], opis_nier text
+ public     	 przepiszoferent                           	 void                                      	
+ public     	 przepiszzapotrzebowanie                   	 void                                      	 kl_old_id integer, zapotrzebowanie_id integer, kol_tab text[], par_min text[], par_max text[]
+ public     	 przyjetozmediow                           	 slownik                                   	 media_nieruchomosc_id integer, of_zap_id integer
+ public     	 przytnijtekstmsc                          	 text                                      	 text_msc text
+ public     	 regiongeograficzny                        	 setof slownik                             	 parent_id integer
+ public     	 regiongeograficznyczwpozwoj               	 setof reggeog                             	 text_nazwa text, wojewodztwo_id integer
+ public     	 regiongeograficznynajnizej                	 setof reggeog                             	 text_nazwa text
+ public     	 regiongeograficznynajnizejwoj             	 setof reggeog                             	 text_nazwa text, wojewodztwo_id integer
+ public     	 regionnajngalazrodzice                    	 setof integer                             	 region_id integer
+ public     	 rodzajbudynek                             	 setof slownik                             	 nier_szcz_id integer
+ public     	 rozmowaprzychodzaca                       	 boolean                                   	 telefon_nr text, dzwonienie_status_id integer, wewn_nr_agent text
+ public     	 sprawdzaktofwportalu                      	 integer                                   	 oferta_id integer, portal_nazwa text
+ public     	 sprawdzdostepnoscagenta                   	 boolean                                   	 data_wp date, godzina integer, minuta integer, id_a integer, kalendarz_id integer
+ public     	 sprawdzistoferta                          	 boolean                                   	 oferta_id integer
+ public     	 sprawdzobecnoscofzlec                     	 boolean                                   	 oferta_id integer, zapotrzebowanie_id integer, nowe boolean, cena_of double precision
+ public     	 sprawdzofzaplistawsk                      	 boolean                                   	 oferta_id integer, zapotrzebowanie_id integer
+ public     	 sprawdzsubskrypcja                        	 boolean                                   	 nier_rodzaj_id integer, trans_rodzaj_id integer, adres_email text
+ public     	 szczegolynieruchomosc                     	 setof slownik                             	 nier_rodzaj_id integer
+ public     	 szukajklient                              	 setof klientszukaj                        	 osobowosc_id integer, klient_id integer, nazwa_text text, pesel text, nazwisko text, telefon text, komork
+a text
+ public     	 szukajosoba                               	 setof osobaview                           	 text_szukaj text
+ public     	 szukajosoby                               	 setof osobaview                           	 nazwisko_os text, telefon_os text, komorka_os text
+ public     	 szybkieszukanie                           	 setof szukajofertanierview                	 klient_nazwisko text, of_numer integer
+ public     	 szybkieszukaniezapotrzebowanie            	 setof szukajzapotrzebowanienierview       	 klient_nazwisko text, zap_numer integer
+ public     	 tlumaczenia                               	 setof tlumjezyk                           	
+ public     	 transakcjanieruchomosc                    	 setof slownik                             	 nier_rodzaj_id integer
+ public     	 twoleveldict                              	 void                                      	 tab_dict text, col_dict text, id_dict text, parent_tag character varying, wiel boolean, id_sek integer, w
+aga_el integer, pl_tlum text, en_tlum text, ge_tlum text
+ public     	 twoleveldictroom                          	 void                                      	 tab_dict text, col_dict text, id_dict text, parent_tag character varying, wiel boolean, id_sek integer, w
+aga_el integer, pl_tlum text, en_tlum text, ge_tlum text
+ public     	 uaktualnijmedianieruchomosc               	 boolean                                   	 media_nieruchomosc_id integer, nier_rodzaj_id integer, trans_rodzaj_id integer, region_id integer, status
+_id integer, ulica_lok text, is_oferent boolean, powierzchnia_t text, cena_t text, opis_n_t text, przyp_data date
+ public     	 usundokosoba                              	 boolean                                   	 osoba_dowod_id integer
+ public     	 usundokosoba                              	 boolean                                   	 osoba_id integer, dowod_tozsamosc_id integer
+ public     	 usunemail                                 	 boolean                                   	 mail_id integer
+ public     	 usunemailmedia                            	 boolean                                   	 email_media_nieruchomosc_id integer
+ public     	 usunfilm                                  	 text                                      	 film_id integer
+ public     	 usunkomorka                               	 boolean                                   	 osoba_id integer
+ public     	 usunnotatka                               	 boolean                                   	 notatka_id integer
+ public     	 usunnotatkanieruchomosc                   	 boolean                                   	 notatka_id integer
+ public     	 usunnotatkazapotrzebowanie                	 boolean                                   	 notatka_id integer
+ public     	 usunopisoferta                            	 boolean                                   	 opis_id integer
+ public     	 usunopisposzzapotrzebowanie               	 boolean                                   	 opis_id integer
+ public     	 usunopiszapotrzebowanietrrodz             	 boolean                                   	 opis_id integer
+ public     	 usunosobaklient                           	 boolean                                   	 klient_id integer, osoba_id integer
+ public     	 usunosobalistawsk                         	 boolean                                   	 osoba_lista_wsk_adr_id integer
+ public     	 usunosobaoferta                           	 boolean                                   	 osoba_id integer, oferta_id integer
+ public     	 usunosobazapotrzebowanie                  	 boolean                                   	 zapotrzebowanie_id integer, osoba_id integer
+ public     	 usunpomieszczenienier                     	 boolean                                   	 pom_przyn_nier_id integer
+ public     	 usunprowdlatrans                          	 boolean                                   	 prow_zap_id integer
+ public     	 usunreggeogzap                            	 boolean                                   	 zapotrzebowanie_trans_rodzaj_id integer, reg_id integer
+ public     	 usunspotkanie                             	 boolean                                   	 spotkanie_id integer
+ public     	 usunsubskrypcja                           	 slownik                                   	 nier_rodzaj_id integer, trans_rodzaj_id integer, adres_email text
+ public     	 usunszczegnierzap                         	 boolean                                   	 zapotrzebowanie_id integer, szczeg_id integer
+ public     	 usuntelefon                               	 boolean                                   	 tel_id integer
+ public     	 usuntelefonmedia                          	 boolean                                   	 telefon_media_nieruchomosc_id integer
+ public     	 usuntransnierzapotrzebowanie              	 boolean                                   	 zapotrzebowanie_trans_rodzaj_id integer
+ public     	 usunwlasciciel                            	 boolean                                   	 wlasciciel_id integer
+ public     	 usunwpiskalendarz                         	 slownik                                   	 kalendarz_id integer
+ public     	 usunzdjecie                               	 text                                      	 zdjecie_id integer
+ public     	 wpiskalendarz                             	 slownik                                   	 kalendarz_id integer, data_wp date, godzina integer, minuta integer, id_agent_a integer[], koment text, s
+potkanie_id integer
+ public     	 wprowadzagent                             	 slownik                                   	 agent_id integer, nazwa_t text, nazwa_skr text, nazwa_f text, login_t text, passwd text, tel text, komork
+a_t text, fax_t text, email_t text, lic_num integer, otodom_id integer, wewn_nr text, nip_t text, adres_t text, uprawnienia boolean[], bank_id integer, rachunek_nr text, akt_konto boolean
+ public     	 wszystkierodzajetrans                     	 setof transakcje                          	
+ public     	 wyposazeniepodajszczeg                    	 text                                      	 nieruchomosc_id integer, nazwa_wyp text
+ public     	 zapotrzebowaniatablistwskazan             	 setof szukajzapotrzebowanienierview       	 tab_zapotrzebowania integer[]
+ public     	 zapotrzebowanieklient                     	 setof szukajzapotrzebowanienierview       	 osoba_id integer
+ public     	 zmianacena                                	 setof zmianaceny                          	 oferta_id integer
+ public     	 zmianahasla                               	 boolean                                   	 login_t text, passwd text, newpasswd text

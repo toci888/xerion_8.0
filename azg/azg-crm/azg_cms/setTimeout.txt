@@ -1,0 +1,5 @@
+
+setTimeout ( expression, timeout );
+
+where expression is the JavaScript code to run after timeout milliseconds have elapsed.
+expression bedzie z (parametrami)

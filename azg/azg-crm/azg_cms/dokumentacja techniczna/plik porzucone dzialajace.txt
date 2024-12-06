@@ -1,0 +1,1 @@
+popup/opis_zap_szcz.php - dziala dla poszczegolnego zapotrzebowania - rodzaju transakcji, wielojezylowe, przeznaczne na stronew

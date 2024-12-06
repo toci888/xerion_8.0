@@ -1,0 +1,50 @@
+
+User-agent: googlebot
+Disallow: /panel
+
+User-agent: gulliver
+Disallow: /panel
+
+User-agent: slurp
+Disallow: /panel
+
+User-agent: fast
+Disallow: /panel
+
+User-agent: scooter
+Disallow: /panel
+
+User-agent: vscooter
+Disallow: /panel
+
+User-agent: ia_archiver
+Disallow: /panel
+
+User-agent: Nutch
+Disallow: /panel
+
+User-agent: FAST-WebCrawler
+Disallow: /panel
+
+User-agent: teoma_agent1
+Disallow: /panel
+
+User-agent: Lycos_Spider_(T-Rex)
+Disallow: /panel
+
+User-agent: MSNBOT/0.1
+Disallow: /panel
+
+User-agent: ArchitextSpider
+Disallow: /panel
+
+User-agent: ZyBorg
+Disallow: /panel
+
+User-agent: SurveyBot
+Disallow: /panel
+
+# Disallow all other crawlers  
+
+User-agent: *
+Disallow: /

@@ -1,0 +1,84 @@
+<html><head><title>A.Z.Gwarancja - Baza Danych</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css"></head>
+  <script language="javascript" src="js/script.js"></script>
+<body>
+<?php
+    include_once ('bll/cache.php');
+    include_once ('bll/jezykibll.php');
+    include_once ('bll/parametrynierbll.php');
+    include_once ('dal/queriesDAL.php');
+    include_once ('ui/kontrolki_html.php');
+    include_once ('ui/utilsui.php');
+    require('naglowek.php');
+    require('conf.php');
+    session_start();
+    $tlumaczenia = cachejezyki::Czytaj();
+    if (!isset($_SESSION[$zalogowany]))
+    {
+        echo 'Nie jesteś zalogowany.';
+    }
+    else
+    {
+        if (isset($_POST['zatwierdz']))
+        {
+            $dal = new NieruchomoscDAL();
+            //wywolac dodanie z tablica parametrow
+        }
+        if (isset($_POST['potwierdz']))
+        {
+            $tabParam[WyposazenieNierDAL::$id_nieruchomosc] = $_POST['hid_r_nier'];
+            $tabParam[WyposazenieNierDAL::$id_transakcja] = $_POST['hid_r_tr'];
+            
+            
+            //formularz dodania lub szukania klienta
+            echo '<form action= "'.$_SERVER['PHP_SELF'].'" method= "POST">';
+                
+            echo '<table><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$osobowosc).' :</td><td>';
+            KontrolkiHtml::DodajSelectZrodSlownik('osobowosc', 'id_but_osobowosc', SlownikDAL::$osobowosc, 'osobowosc_id', '', 'PokazUkryjFirmaDane(\'osobowosc_id\', '.$osoba_prawna.', \'firma_dane\');');
+            echo '</td></tr>';
+            echo '<tr name="firma_dane1" id="firma_dane1"><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$nazwa_firma).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('nazwa_firma', 'id_nazwa_firma', '', 30, 50, '');
+            echo '</td></tr><tr name="firma_dane2" id="firma_dane2"><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$nip).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('nip', 'id_nip', '', 15, 15, '');
+            echo '</td></tr><tr name="firma_dane3" id="firma_dane3"><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$regon).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('regon', 'id_regon', '', 15, 15, '');
+            echo '</td></tr><tr name="firma_dane4" id="firma_dane4"><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$krs).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('krs', 'id_krs', '', 15, 15, '');
+            echo '</td></tr><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$kod_pocztowy).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('kod_pocztowy', 'id_kod_pocztowy', '', 6, 6, '');
+            echo '</td></tr><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$miejscowosc).' :</td><td>';
+            KontrolkiHtml::DodajPrzeszukiwanieKontrolka($tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$wybierz), 'wybierz', NieruchomoscDAL::$region, '', NieruchomoscDAL::$id_region_geog, '', 'popup/wybor_region_geog.php', $tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$miejscowosc));
+            echo '</td></tr><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$ulica).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('ulica', 'id_ulica', '', 40, 30, '');
+            echo '</td></tr><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$nr_dom).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('numer_dom', 'id_numer_dom', '', 10, 10, '');
+            echo '</td></tr><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$nr_mieszkanie).' :</td><td>';
+            KontrolkiHtml::DodajTextbox('numer_miesz', 'id_numer_miesz', '', 10, 10, ''); 
+            echo '</td></tr><tr><td>';
+            KontrolkiHtml::DodajSubmit('zatwierdz','id_zatwierdz',$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$zatwierdz).'.','');
+            echo '</td></tr></table></form>';
+            //schowanie lub pokazanie elementow formularza
+            echo '<script>PokazUkryjFirmaDane(\'osobowosc_id\', '.$osoba_prawna.', \'firma_dane\');</script>';
+            
+            echo '<form action= "'.$_SERVER['PHP_SELF'].'" method= "POST">';
+                
+            echo '<table><tr><td>'.$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$ist_klient).' :</td><td>'; 
+            KontrolkiHtml::DodajPrzeszukiwanieKontrolka($tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$wybierz), 'wybierz', 'wybor_klient', '', NieruchomoscDAL::$id_klient, '', 'popup/wybor_klient.php', $tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$ist_klient));
+            echo '</td></tr><tr><td>';
+            KontrolkiHtml::DodajSubmit('zatwierdz_zn_kl','id_zatwierdz_zn_kl',$tlumaczenia->Tlumacz($_SESSION[$jezyk], tags::$zatwierdz).'.','');
+            echo '</td></tr></table></form>';
+            
+            //$_SESSION[NieruchomoscDAL::$id_klient] - tu dac id w przypadku wyszukania
+            
+            //dopisac szukanie klientow
+            
+            //$paramNier = new WyposazenieNierBLL($tabParam);
+                   
+            //UtilsUI::DodajSekcja($paramNier); 
+        }
+    }
+    require('stopka.php');
+?>
+</body>
+</html>

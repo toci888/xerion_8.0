@@ -1,0 +1,6 @@
+---dzieci wystawki okien
+
+select * from wyposazenie_nier where id_parent = (select id from wyposazenie_nier where nazwa = '_wystawka_okien');
+
+
+select *, (stat.zrodla_wejsc::float / stat.ilosc_wyswietlen::float)::float as wspolczynnik from (select id_oferta, count(id) as ilosc_wyswietlen, (select count(distinct adres) from oferta_odwiedziny where id_oferta = of_odw1.id_oferta and adres not like '10.0.0%') as zrodla_wejsc from oferta_odwiedziny of_odw1 where adres not like '10.0.0%' group by id_oferta) as stat where id_oferta = 2179 order by wspolczynnik desc, ilosc_wyswietlen desc;

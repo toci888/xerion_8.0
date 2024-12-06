@@ -1,0 +1,23 @@
+A:hover {FONT-SIZE: 11px; COLOR: lightblue; FONT-FAMILY: tahoma, verdana; TEXT-DECORATION: none;} 
+A:visited {FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: tahoma, verdana; TEXT-DECORATION: none;} 
+A:link {FONT-SIZE: 11px; FONT-FAMILY: tahoma, verdana; TEXT-DECORATION: none; COLOR: blue;} 
+A:active {FONT-SIZE: 11px; FONT-FAMILY: tahoma, verdana; TEXT-DECORATION: none; COLOR: gray;} 
+TD {FONT-SIZE: 11 px; COLOR: BLACK; FONT-FAMILY: Tahoma, Helvetica, Arial}
+.zawo {FONT-SIZE: 11 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:#8f8f8f;}
+.zawna {FONT-SIZE: 11 px; FONT-FAMILY: Tahoma, Helvetica,Arial;color:red;FONT-WEIGHT: bold;}
+.ira {BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid;}
+.wyl {FONT-SIZE: 11 px; FONT-FAMILY: Verdana, Tahoma, Helvetica, Arial; color:blue;FONT-WEIGHT: bold;}
+.nag1w {FONT-SIZE: 12 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:white;}
+.nag1wb {FONT-SIZE: 12 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:white;FONT-WEIGHT: bold;}
+.nag2wb {FONT-SIZE: 11 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:white;FONT-WEIGHT: bold;}
+.nag1bb {FONT-SIZE: 11 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:black;FONT-WEIGHT: bold;}
+.nag1b {FONT-SIZE: 12 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:black;}
+.nag1bl {FONT-SIZE: 12 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:blue;}
+.nag1s {FONT-SIZE: 12 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:#8f8f8f;}
+.nag2w {FONT-SIZE: 13 px; FONT-FAMILY: Verdana,Arial;color:white;FONT-WEIGHT: bold;}
+.nag2b {FONT-SIZE: 14 px; FONT-FAMILY: Verdana, Tahoma, Helvetica, Arial;color:black;}
+.nag2bb {FONT-SIZE: 14 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:black;FONT-WEIGHT: bold;}
+.nag2bl {FONT-SIZE: 14 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:blue;}
+.nag2s {FONT-SIZE: 14 px; FONT-FAMILY: Tahoma, Helvetica, Arial;color:#8f8f8f;}
+.poleca {FONT-SIZE: 11 px; COLOR: BLACK; FONT-FAMILY: Tahoma, Helvetica, Arial}
+.polecab {FONT-SIZE: 11 px; COLOR: WHITE; FONT-FAMILY: Tahoma, Helvetica, Arial}

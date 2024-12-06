@@ -1,0 +1,31 @@
+<?    
+    $path = str_replace($_SERVER['PHP_SELF'], '', $_SERVER['SCRIPT_FILENAME']).'/';
+    
+    include_once ('../dal/dbQueries.php');
+
+    class translate
+    {
+        protected $data;
+        protected $dbData;
+        protected $dbQueries;
+        protected $langIds;
+        
+        public function translations()
+        {
+            $this->dbQueries = new dbCommunication();
+        }
+        
+        public function GetTranslations()
+        {
+            //pobrac lang ids, tlumaczenia, w parse zrobic array od id jezykow, w kazdym elemencie array : _tag => tlumaczenie
+            //walnac obiekt kliencki do ktorego to zostanie wpakowane, ktory ma metode z parametrem jezykowego id do zwracania tlumaczen
+            $this->dbData = $this->dbQueries->GetTranslations();
+            
+        }
+        protected function parseTranslations()
+        {
+            $i = 0;
+            ///rozrzucic tlumaczenia po arrayu obiektow tlumaczenia
+        }
+    }
+?>

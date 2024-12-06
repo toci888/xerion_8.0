@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='Windows-1250' standalone='yes'?>
+<Trader>
+	<Informacje>
+		<RodzajPaczki>całość</RodzajPaczki>
+		<Program>Estate</Program>
+		<WersjaProgramu>1.13.5.9</WersjaProgramu>
+	</Informacje>
+	<Oferty>
+		<Oferta>
+			<ID>20001-1243</ID>
+			<Kategoria>mieszkanie</Kategoria>
+			<Operacja>Sprzedaż</Operacja>
+			<Miasto>Warszawa</Miasto>
+			<Dzielnica>Ursynów</Dzielnica>
+			<Wartosc>150000</Wartosc>
+			<Zdjecia>
+				<Zdjecie>
+					<NazwaZdjecia>mieszkanie21.jpg</NazwaZdjecia>
+					<OpisZdjecia>Kuchnia</OpisZdjecia>
+				</Zdjecie>
+				<Zdjecie>
+					<NazwaZdjecia>mieszkanie22.jpg</NazwaZdjecia>
+					<OpisZdjecia>Pokój</OpisZdjecia>
+				</Zdjecie>
+				<Zdjecie>
+					<NazwaZdjecia>mieszkanie23.jpg</NazwaZdjecia>
+					<OpisZdjecia>Balkon</OpisZdjecia>
+				</Zdjecie>
+			</Zdjecia>
+		</Oferta>
+		<Oferta>
+			<ID>20001-1244</ID>
+			<Kategoria>mieszkanie</Kategoria>
+			<operacja>Sprzedaż</operacja>
+			<miasto>Warszawa</miasto>
+			<dzielnica>Ursynów</dzielnica>
+			<wartosc>150000</wartosc>
+			<zdjecie>mieszkanie21.jpg</zdjecie>
+		</Oferta>
+	</Oferty>
+	<Usun>
+		<id>20041-1248</id>
+		<id>20041-1249</id>
+	</Usun>
+</Trader>

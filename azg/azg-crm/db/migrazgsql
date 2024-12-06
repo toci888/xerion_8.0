@@ -1,0 +1,2 @@
+cp /home/bartek/katalog/dydaktyka/studia/Azg/AZG/db/new\ database/migracja/data_move.sql /home/postgres/azg/data_move.sql
+chown -R postgres.postgres *

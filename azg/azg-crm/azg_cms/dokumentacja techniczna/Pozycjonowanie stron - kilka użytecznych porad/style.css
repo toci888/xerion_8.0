@@ -1,0 +1,601 @@
+/*  
+Theme Name: ms 
+Theme URI: http://orangescale.com
+Description: Laila for Wordpress (with Widgets support)
+Version: 1.0
+Author: Thomas Arie S and Lala Cinila
+Author URI: http://orangescale.com/more/forums/
+
+*** REGARDING IMAGES ***
+Images taken from http://gettyimages.com, to replace them with something you love is very preferable.
+
+Have fun, and don't be afraid to contact me if you have questions.
+*/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+font: 12px Verdana, Arial, sans-serif;
+color: #333;
+background: #EAE7D6 url(images/bg-grad.jpg) top left repeat-x fixed;
+text-align: center;
+}
+
+a:link {
+color: #9D5C00;
+border-bottom: 1px dashed #DBBA8A;
+text-decoration: none;
+}
+a:visited {
+color: #9D5C00;
+border-bottom: 1px dashed #DBBA8A;
+text-decoration: none;
+}
+a:active {
+color: #9D5C00;
+}
+.header-c h1 a:hover, a:hover {
+color: #ff0000;
+border-bottom: 1px solid #ff0000;
+text-decoration: none;
+}
+a.ano {
+text-decoration: none;
+border: none;
+}
+a.hey {
+font-weight: bold;
+}
+.clear {
+clear: both;
+margin:0;
+padding:0;
+height: 0.1px;
+}
+h1 {
+font: 220% Georgia, Arial, sans-serif;
+color: #333333;
+}
+.header-c a, .header-c h1 a, .header-c h1 a:visited {
+color:#9D5C00; text-decoration:none; border-width:0
+}
+.tagline {
+padding: 0px;
+}
+#wrapper {
+width: 750px;
+margin: 30px auto;
+background: #FBFAF5;
+border: 5px solid #fff;
+}
+
+.header-c {
+padding: 20px;
+}
+#navcontainer{
+background: #8C0000;
+height: 30px;
+margin: 0;
+padding: 0;
+}
+#navcontainer ul{
+margin: 0;
+padding: 0;
+}
+#navcontainer ul li
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: block;
+float: left;
+font: 11px/30px Verdana, "Lucida Grande", sans-serif;
+text-align: center;
+}
+
+#navcontainer a
+{
+color: #F8F2E5;
+text-decoration: none;
+display: block;
+width: 106px;
+border-top: none;
+border-right: 1px solid #A8B090;
+border-bottom: none;
+}
+
+#navcontainer .current_page_item
+{ background: #CC0000; color: #fff; border-bottom: none; }
+#navcontainer a:hover { background: #4A0000; color: #fff; border-bottom: none;}
+
+
+#go-content {
+}
+#main {
+text-align: left;
+}
+.bigger {
+width: 500px;
+float: left;
+margin: 0;
+padding: 0 0 30px 0;
+background: #fff;
+}
+.bigger-c {
+}
+
+.bar-head {
+height: 0px;
+background: #FFFFFF;
+margin-top: 5px;
+border-right: 5px solid #fff;
+}
+
+/*
+background: transparent url(images/bar-default.jpg) top left no-repeat;
+}
+.bar-default {
+background: transparent url(images/bar-default.jpg) top left no-repeat;
+}
+.bar-journal {
+background: transparent url(images/bar-journal.jpg) top left no-repeat;
+}
+.bar-about {
+background: transparent url(images/bar-about.jpg) top left no-repeat;
+}
+*/
+
+.smaller {
+width: 240px;
+float: right;
+margin: 0;
+padding: 0;
+font-size: 11px;
+line-height: 16px;
+}
+
+.item {
+padding: 15px;
+line-height: 18px;
+}
+.item h1, h1.pagetitle {
+font: normal 220% Georgia, Verdana, Arial, sans-serif;
+}
+.item h2, h2.pagetitle {
+font: normal 200% Georgia, Verdana, Arial, sans-serif;
+}
+.item h3 {
+font: normal 180% Georgia, Verdana, Arial, sans-serif;
+margin: 8px 0;
+}
+.item h4 {
+font: normal 160% Georgia, Verdana, Arial, sans-serif;
+margin: 8px 0;
+}
+
+
+.item h2 a, .item h2 a:visited {
+color: #000;
+text-decoration: none;
+border: none;
+border-bottom: 1px dashed #DBBA8A;
+}
+.item h2 a:hover {
+color: #cc0000;
+border-bottom: 1px dashed #cc0000;
+}
+.item-ctnt p {
+padding: 5px 0;
+}
+.item-archives {
+padding: 10px 0;
+}
+
+.item-archives h3 {
+font: normal 180% Georgia, Verdana, Arial, sans-serif;
+}
+.item-archives h3 a, .item-archives h3 a:visited, .item-archives h3 a:hover {
+color: #333;
+text-decoration: none;
+border: none;
+border-bottom: 1px dashed #DBBA8A;
+}
+.item-archives h3 a:hover {
+color: #cc0000;
+border-bottom: 1px dashed #cc0000;
+}
+.item-foot {
+font-size: 11px;
+border-top: 1px solid #F0EDED;
+padding: 5px 10px;
+margin-top: 10px;
+background: #F8F8F8;
+color:#666666;
+}
+.item-foot a {
+color:#333333;
+}
+
+
+.side-c {
+padding: 15px;
+}
+.side-c p {
+padding-top: 4px;
+padding-bottom: 4px;
+}
+.side-c h3 {
+font: bold 12px Verdana, Arial, sans-serif;
+margin-bottom: 5px;
+}
+.side-c ul {
+list-style: square;
+margin: 5px 0 0 15px;
+padding: 0;
+}
+.side-c ul li {
+margin: 4px 0 4px 0;
+}
+
+
+
+#footer {
+margin: 0;
+padding: 0;
+font-size: 10px;
+background: #F4F4EA;
+line-height: 16px;
+}
+
+.footer-c {
+margin: 0px;
+padding: 15px;
+}
+
+
+
+
+/* for each item */
+.item blockquote {
+margin: 15px 20px;
+padding: 0 10px;
+border-top: 3px solid #f4f4f4;
+font-size: 11px;
+}
+.item ul, .item ol {
+margin: 10px 30px;
+}
+
+
+
+
+
+
+code {
+font: 13px 'Courier New', Courier, Arial, sans-serif;
+color: #CC3300;
+}
+
+acronym, abbr {
+cursor: help;
+border-bottom: 1px dotted #333;
+}
+
+del {
+color: #ccc;
+background: #FFFFCC;
+}
+
+pre {
+max-height: 200px;
+width: 95%;
+overflow: auto;
+margin: 10px 0;
+background: #f4f4f4;
+padding: 5px;
+font: 12px 'Courier New', Courier, Verdana, Arial, sans-serif;
+color: #AA3800;
+}
+
+
+#preventry ul li {
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+input {
+font-size: 11px;
+padding: 3px;
+font: 11px Verdana, Arial, sans-serif;
+margin-right: 6px;
+}
+
+input.searchinput {
+width: 90%;
+}
+input.searchinput:focus {
+background: #F6FF94;
+}
+
+#s-rentry span.sp-date {
+display: none;
+}
+#previously span.sp-date {
+font-weight: bold;
+}
+#previously ul {
+list-style-type: none;
+margin: 6px 0px;
+padding: 0;
+border-top: 1px solid #f4f4f4;
+}
+#previously ul li {
+padding: 3px 0;
+border-bottom: 1px solid #f4f4f4;
+}
+#previously a {
+text-decoration: none;
+border: none;
+}
+p.bcumb {
+padding: 15px 15px 0 15px;
+font-size: 11px;
+}
+
+.s-result {
+border-top: 1px solid #f4f4f4;
+padding-bottom: 10px;
+}
+.s-result h3 {
+font: normal 140% Georgia, Verdana, Arial, sans-serif;
+}
+.s-result h3 a, .s-result h3 a:visited {
+color: #333;
+text-decoration: none;
+border: none;
+}
+h2.searchhead {
+font: normal 200% Georgia, Verdana, Arial, sans-serif;
+padding: 20px 0 0 15px;
+}
+p.subsearch {
+font-size: 11px;
+}
+.side-c h2 {font-size: 12px}
+
+/* Begin Comments*/
+.comm-form {
+background: #FBFBF3;
+padding: 10px;
+margin-top: 20px;
+}
+.comm-form p {
+padding: 4px 0;
+}
+.alt {
+margin: 0;
+padding: 10px;
+}
+
+.commentlist {
+padding: 0;
+text-align: justify;
+}
+
+.commentlist li {
+margin: 15px 0 3px;
+padding: 5px 10px 3px;
+list-style: none;
+}
+
+.commentlist p {
+margin: 10px 5px 10px 0;
+}
+
+#commentform p {
+margin: 5px 0;
+}
+
+.nocomments {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.commentmetadata {
+margin: 0;
+display: block;
+}
+#commentform input {
+width: 170px;
+padding: 2px;
+margin: 5px 5px 1px 0;
+}
+
+#commentform textarea {
+padding: 2px;
+}
+
+#commentform #submit {
+margin: 0;
+}
+.commentlist li, #commentform input {
+font-size: 11px;
+}
+
+.commentlist li {
+font-weight: bold;
+}
+
+.commentlist cite, .commentlist cite a {
+font-weight: bold;
+font-style: normal;
+}
+
+.commentlist p {
+font-weight: normal;
+line-height: 1.5em;
+text-transform: none;
+}
+
+#commentform p {
+}
+
+.commentmetadata {
+font-weight: normal;
+}
+/* End Comments */
+
+a img {
+border: none;
+}
+
+.navigation {
+border-top: solid 1px #efefef;
+display: block;
+text-align: center;
+padding: 10px 0;
+}
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+text-align:center;
+}
+
+select {
+width: 130px;
+}
+/* Begin Images */
+p img {
+padding: 0;
+max-width: 100%;
+}
+
+/*        Using 'class="alignright"' on an image will (who would've
+thought?!) align the image to the right. And using 'class="centered',
+will of course center the image. This is much better than using
+align="center", being much more futureproof (and valid) */
+
+img.centered {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+img.alignright {
+padding: 4px;
+margin: 0 0 2px 7px;
+display: inline;
+}
+
+img.alignleft {
+padding: 4px;
+margin: 0 7px 2px 0;
+display: inline;
+}
+
+.alignright {
+float: right;
+}
+
+.alignleft {
+float: left
+}
+/* End Images */
+
+.alt {
+background-color: #f8f8f8;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+.item-ctnt .postmetadata {
+margin: 30px 0;
+padding: 10px;
+}
+.comm-ctnr {
+margin-top: 20px;
+padding: 15px;
+}
+h3#comments, h3#respond {
+font: normal 150% Georgia, Verdana, Arial, sans-serif;
+}
+h3#respond {
+}
+/* Begin Calendar */
+#wp-calendar {
+empty-cells: show;
+margin: 10px auto 0;
+width: 200px;
+}
+
+#wp-calendar #next a {
+padding-right: 10px;
+text-align: right;
+}
+
+#wp-calendar #prev a {
+padding-left: 10px;
+text-align: left;
+}
+
+#wp-calendar a {
+display: block;
+text-decoration: none;
+border: none;
+}
+
+#wp-calendar caption {
+text-align: center;
+font-weight:bold;
+}
+
+#wp-calendar td {
+padding: 3px 0;
+text-align: center;
+font-size: 11px;
+}
+
+
+#wp-calendar caption, cite {
+text-decoration: none;
+}
+#wp-calendar #prev a {
+font-size: 9pt;
+}
+
+#wp-calendar a {
+text-decoration: none;
+color: #287910;
+font-weight: bold;
+}
+
+#wp-calendar caption {
+text-align: center;
+}
+
+#wp-calendar th {
+font-style: normal;
+text-transform: capitalize;
+background:#F7F4E4; text-align:center
+}
+
+#wp-calendar td#today {
+background: #F9F4C6;
+}
+/* End Calendar */
+
+ul.morein {
+margin: 0;
+padding: 0;
+}
+ul.morein li {
+margin: 0;
+padding: 0;
+}
+input.search-input {
+width: 120px;
+}
+input.search-button {
+padding: 2px;
+}

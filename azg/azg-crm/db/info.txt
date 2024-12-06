@@ -1,0 +1,11 @@
+obecnie w backupie przed importem dopisac przed 1 insertem ustawienie encodingu na latin2 !!! :)
+
+
+select oferta.id, agent.nazwa_pot from oferta join nieruchomosc on oferta.id_nieruchomosc = nieruchomosc.id join agent on nieruchomosc.id_agent = agent.id where pokaz = false and id_status = 1 order by agent.nazwa_pot, oferta.id;
+
+
+update oferta set id_status = (select id from status where nazwa = '_zawieszona') where pokaz = false and id_status = 1;
+
+
+
+select id from oferta where id_status = 1 and pokaz = true and id not in (select id_oferta from portal_wys where id_portal = 2);
