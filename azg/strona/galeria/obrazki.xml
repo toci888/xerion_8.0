@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<obrazki speed="320" shadow="1" fontName="Arial" fontSize="12" fontColor="#00ff00" nborderColor="0x909090" aborderColor="0xffff00">
+  <obrazek id="1">
+    <![CDATA[Zdjęcie nr 1]]>
+  </obrazek>
+  <obrazek id="2">
+    <![CDATA[Zdjęcie nr 2]]>
+  </obrazek>
+  <obrazek id="3">
+    <![CDATA[Zdjęcie nr 3]]>
+  </obrazek>
+  <obrazek id="4">
+    <![CDATA[Zdjęcie nr 4]]>
+  </obrazek>
+  <obrazek id="5">
+    <![CDATA[Zdjęcie nr 5]]>
+  </obrazek>
+  <obrazek id="6">
+    <![CDATA[Zdjęcie nr 6]]>
+  </obrazek>
+  <obrazek id="7">
+    <![CDATA[Zdjęcie nr 7]]>
+  </obrazek>
+</obrazki>
+

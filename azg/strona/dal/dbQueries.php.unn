@@ -1,0 +1,40 @@
+<?
+    include_once ('../dal/dal.php'); 
+    
+    class dbCommunication
+    {
+        protected $dal;
+        //konstruktor klasy wywolywany podczas utworzenia obiektu klasy dbCommunication
+        public function dbCommunication()
+        {
+            //utworzenie obiektu typu dbComm... pociaga za soba utworzenie obiketu dal - najbardziej podstawowego naszego obiektu dostepu do bazy
+            $this->dal = new dal();
+        }
+        public function GetLangIds()
+        {
+            //wyciagamy id jezykow
+            $this->dal->pgSelect('select id from ListaJezykow();');
+            if ($this->dal->numRows < 1)
+            {
+                return false;
+            }
+            else
+            {
+                return $this->dal->rows;
+            }
+        }
+        public function GetTranslations()
+        {
+            //pobieramy hurtem z procedury wszystkie mozliwe tlumaczenia jakie sie znajduja na bazie
+            $this->dal->pgSelect('select id,tag,nazwa from Tlumaczenia();');
+            if ($this->dal->numRows < 1)
+            {
+                return false;
+            }
+            else
+            {
+                return $this->dal->rows;
+            }
+        }
+    }
+?>

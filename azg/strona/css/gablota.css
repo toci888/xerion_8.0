@@ -1,0 +1,47 @@
+.wlk_litery
+{
+	text-transform: uppercase;
+}
+.czerwone_duze
+{
+	font-family: Garamond;
+	text-transform: uppercase;
+	color: red;
+	font-size: 18px;
+}
+.naglowek_sama_gora
+{
+	font-family: Garamond;
+	text-transform: uppercase;
+	color: white;
+	/*background-color: #2865b5;*/
+	font-size: 20px;
+}
+.naglowek_gora
+{
+	font-family: Garamond;
+	text-transform: uppercase;
+	color: black;
+	/*background-color: #2865b5;*/
+	font-size: 18px;
+}
+.tlo_td 
+{
+	/*background-color: #2865b5;*/
+}
+.tableBorder
+{
+	border: 1px solid black;
+	border-style: solid;
+	table-layout: auto;
+	color: black;
+	border-color: black; 
+	/*empty-cells: show;*/
+	border-collapse: collapse;
+}
+.napis_www
+{
+	font-family: Arial;
+	color: black;
+	font-size: 54px;
+}

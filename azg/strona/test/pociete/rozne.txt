@@ -1,0 +1,7 @@
+Rozmiar strony szerokosc: 982 i w dó³ 
+Rozmiar banera flash: 982 x 245
+
+otoczki pasa lewego œrodkowego i prawego 1 pixel kolor: #575757
+ma³y pixel do poci¹gniecia w dó³ pod gradientowym tle w lewym i prawym pasku kolor pixela : #7ba5e0
+oferty:
+w paskach ofert kolor t³a pomiêdzy ofertami to : #7b9cdc i #9fc0f3 (i tak na przemian)
