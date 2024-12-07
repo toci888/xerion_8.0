@@ -7,9 +7,24 @@ namespace Toci.Intotech.Xerion.API.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<JobSeeker> JobSeekers { get; set; }
-        public DbSet<JobOffer> JobOffers { get; set; }
-        public DbSet<Connection> Connections { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<Property> Properties { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            // Configure relationships
+            modelBuilder.Entity<Company>()
+                .HasOne(c => c.Owner)
+                .WithMany(u => u.Companies)
+                .HasForeignKey(c => c.OwnerId);
+
+            modelBuilder.Entity<Property>()
+                .HasOne(p => p.Owner)
+                .WithMany(u => u.Properties)
+                .HasForeignKey(p => p.OwnerId);
+        }
     }
 }
