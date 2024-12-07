@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkIntegration", "BizTalk\BizTalkIntegration.csproj", "{C3BD7674-915E-4156-B620-E1272FDCEAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIntegration", "Sitecore\SitecoreIntegration.csproj", "{87729AD8-791A-44E1-91A4-2DA20E16A5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicsIntegration", "DynamicsCRM\DynamicsIntegration.csproj", "{68F394F3-9238-48F7-8B78-39ED63CBD871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPIntegration", "SAP\SAPIntegration.csproj", "{1542DF9D-8A1A-4AC7-95F7-B0251A387522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Intotech.Xerion.API", "Toci.Intotech.Xerion.API\Toci.Intotech.Xerion.API.csproj", "{1074334F-72B9-590E-B6C0-ABA476D6B679}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3BD7674-915E-4156-B620-E1272FDCEAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BD7674-915E-4156-B620-E1272FDCEAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BD7674-915E-4156-B620-E1272FDCEAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BD7674-915E-4156-B620-E1272FDCEAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87729AD8-791A-44E1-91A4-2DA20E16A5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87729AD8-791A-44E1-91A4-2DA20E16A5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87729AD8-791A-44E1-91A4-2DA20E16A5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87729AD8-791A-44E1-91A4-2DA20E16A5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F394F3-9238-48F7-8B78-39ED63CBD871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F394F3-9238-48F7-8B78-39ED63CBD871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F394F3-9238-48F7-8B78-39ED63CBD871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F394F3-9238-48F7-8B78-39ED63CBD871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1542DF9D-8A1A-4AC7-95F7-B0251A387522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1542DF9D-8A1A-4AC7-95F7-B0251A387522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1542DF9D-8A1A-4AC7-95F7-B0251A387522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1542DF9D-8A1A-4AC7-95F7-B0251A387522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8BFCEF4-C8CB-4B38-9D70-4FF3EF44EC53}
+	EndGlobalSection
+EndGlobal

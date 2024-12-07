@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SAPIntegration</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Referencje lub zależności specyficzne dla SAP -->
+    <PackageReference Include="SAP.Middleware.Connector" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
