@@ -20,8 +20,7 @@ namespace Toci.Intotech.Xerion.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetJobOffers()
         {
-            var jobOffers = await _context.JobOffers.ToListAsync();
-            return Ok(jobOffers);
+            return Ok(await _context.JobOffers.ToListAsync());
         }
 
         [HttpGet("{id}")]
@@ -33,14 +32,14 @@ namespace Toci.Intotech.Xerion.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateJobOffer(JobOfferDTO jobOfferDto)
+        public async Task<IActionResult> CreateJobOffer(JobOfferDTO dto)
         {
             var jobOffer = new JobOffer
             {
-                Title = jobOfferDto.Title,
-                Description = jobOfferDto.Description,
-                Salary = jobOfferDto.Salary,
-                PostedDate = DateTime.UtcNow
+                Title = dto.Title,
+                Description = dto.Description,
+                Salary = dto.Salary,
+                Region = dto.Region
             };
             _context.JobOffers.Add(jobOffer);
             await _context.SaveChangesAsync();
@@ -48,14 +47,16 @@ namespace Toci.Intotech.Xerion.API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateJobOffer(int id, JobOfferDTO jobOfferDto)
+        public async Task<IActionResult> UpdateJobOffer(int id, JobOfferDTO dto)
         {
             var jobOffer = await _context.JobOffers.FindAsync(id);
             if (jobOffer == null) return NotFound();
 
-            jobOffer.Title = jobOfferDto.Title;
-            jobOffer.Description = jobOfferDto.Description;
-            jobOffer.Salary = jobOfferDto.Salary;
+            jobOffer.Title = dto.Title;
+            jobOffer.Description = dto.Description;
+            jobOffer.Salary = dto.Salary;
+            jobOffer.Region = dto.Region;
+
             await _context.SaveChangesAsync();
             return NoContent();
         }
