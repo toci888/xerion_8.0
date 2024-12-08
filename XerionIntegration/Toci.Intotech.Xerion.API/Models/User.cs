@@ -1,3 +1,5 @@
+using Toci.Intotech.Xerion.API.Models;
+
 public class User
 {
     public int Id { get; set; }
@@ -9,4 +11,6 @@ public class User
     public string Email { get; internal set; }
     public string PhoneNumber { get; internal set; }
     public string Region { get; internal set; }
+    public List<Company> Companies { get;  set; }
+    public List<Property> Properties { get; set; }
 }

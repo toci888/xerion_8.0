@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 public class MainDbContext : DbContext
 {
+    public DbSet<Job> Jobs { get; set; }
     public DbSet<User> Users { get; set; }
     public DbSet<Connection> Connections { get; set; }
 
