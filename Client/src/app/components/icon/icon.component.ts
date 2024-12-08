@@ -6,7 +6,7 @@ import {DomSanitizer} from "@angular/platform-browser";
   providedIn:'root'
 })
 export class IconComponent{
-  constructor(private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
+  private  = inject();
   }
 
   putIcon(iconName: string, iconPath: string) {

@@ -1,7 +1,7 @@
 import {Component, Inject} from '@angular/core';
 import {MAT_DIALOG_DATA, MatDialogRef} from "@angular/material/dialog";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-are-you-sure-pop-up',
   templateUrl: './are-you-sure-pop-up.component.html',
   styleUrls: ['./are-you-sure-pop-up.component.scss']

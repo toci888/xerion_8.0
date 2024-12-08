@@ -11,7 +11,7 @@ import { comapniesUrl } from 'src/app/shared/constants/constants';
 })
 export class CompanyPageService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   private get controller() {
     return "api/Company"

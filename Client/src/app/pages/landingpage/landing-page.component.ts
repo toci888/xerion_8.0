@@ -6,7 +6,7 @@ import {ActivatedRoute} from "@angular/router";
 import { EmailVerification, LandingPageService } from './landing-page.service';
 import { ToastrService } from 'ngx-toastr';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-landingpage',
   templateUrl: './landing-page.component.html',
   styleUrls: ['./landing-page.component.scss']

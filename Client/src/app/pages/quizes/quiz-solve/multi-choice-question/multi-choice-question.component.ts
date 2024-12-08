@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnInit, Outp
 import { images } from 'src/app/shared/constants/constants';
 import { QuizModel } from 'src/app/shared/models/quiz';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-multi-choice-question',
   templateUrl: './multi-choice-question.component.html',
   styleUrls: ['./multi-choice-question.component.scss']
@@ -22,7 +22,7 @@ export class MultiChoiceQuestionComponent implements OnInit, AfterViewInit {
 
   public pickedOptions: string[] = []
 
-  constructor() { }
+  private  = inject(); }
 
   ngOnInit(): void {
   }

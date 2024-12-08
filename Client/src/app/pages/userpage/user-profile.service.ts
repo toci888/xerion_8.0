@@ -10,7 +10,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class UserProfileService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   private get controller() {
     return "api/Account"

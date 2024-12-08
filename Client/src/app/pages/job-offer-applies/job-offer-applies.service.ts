@@ -14,7 +14,7 @@ import {JobOfferApplies} from "../../shared/models/jobOfferApplies";
 })
 export class JobOfferAppliesService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   private get controller() {
     return "api/Quizzes"

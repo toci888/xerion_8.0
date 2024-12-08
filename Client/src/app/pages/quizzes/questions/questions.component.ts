@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 import { TimerService } from '../timer/timer.service';
 import { TranslateService } from '@ngx-translate/core';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'questions',
   templateUrl: './questions.component.html',
   styleUrls: ['./questions.component.scss']

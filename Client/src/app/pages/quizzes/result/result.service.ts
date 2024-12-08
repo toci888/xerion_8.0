@@ -10,7 +10,7 @@ import { ReturnedResponse } from 'src/app/shared/models/returned-response';
 })
 export class ResultService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
   userId: string | null = localStorage.getItem('userID');
 
   getQuizAttemptResultById(id: number): Observable<ReturnedResponse<QuizResultDto>> {

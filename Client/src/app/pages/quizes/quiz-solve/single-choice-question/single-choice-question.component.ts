@@ -2,7 +2,7 @@ import { Component, ElementRef, EventEmitter, Input, Output, ViewChild } from '@
 import { images } from 'src/app/shared/constants/constants';
 import { QuizModel } from 'src/app/shared/models/quiz';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-single-choice-question',
   templateUrl: './single-choice-question.component.html',
   styleUrls: ['./single-choice-question.component.scss']
@@ -22,7 +22,7 @@ export class SingleChoiceQuestionComponent {
 
   public pickedOptions: string[] = []
 
-  constructor() { }
+  private  = inject(); }
 
   ngOnInit(): void {
   }

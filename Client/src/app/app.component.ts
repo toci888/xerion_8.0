@@ -19,7 +19,7 @@ import {
   user, windows
 } from "./shared/constants/icons";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
@@ -30,7 +30,7 @@ export class AppComponent {
   public navMenuToggle: boolean = false;
   public userID: string | null = null;
 
-  constructor(private translate: TranslateService, private dateAdapter: DateAdapter<any>, public iconComponent: IconComponent) {
+  private  = inject();
 
     this.icons = [
       fbIcon, twitter, instagram, linkedin, pin, user, html, css, css3, angularjs, ansic, csharp, cplus, java, python, jsicon, discordjs, androidstudio, react, unrealengine, arduino, addtool, typescripticon, jenkins, giticon, jira, windows, linuxicon

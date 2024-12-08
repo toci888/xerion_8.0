@@ -12,7 +12,7 @@ import { Job, JobsQuickInfo } from 'src/app/shared/models/jobOffer';
 })
 export class HomepageService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   getJobs(phrase?: string, location?: string, count: number = 10): Observable<ReturnedResponse<JobsQuickInfo[]>> {
     const query = `${comapniesUrl}/api/Job/get-jobs?phrase=${phrase || ''}&location=${location || ''}&count=${count}`;

@@ -3,7 +3,7 @@ import { FormGroup } from '@angular/forms';
 import { UserProfile } from 'src/app/shared/models/accounts';
 import {CompanySize, JobType} from "../../../../../shared/constants/constants";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-edit-user-profile-grid',
   templateUrl: './edit-user-profile-grid.component.html',
   styleUrls: ['./edit-user-profile-grid.component.scss']
@@ -17,7 +17,7 @@ JobType = JobType;
 
 public phoneMask = [/[0-9]/, /[0-9]/, /[0-9]/, '-', /[0-9]/, /[0-9]/, /[0-9]/, '-', /[0-9]/, /[0-9]/, /[0-9]/];
 
-constructor(private ref: ChangeDetectorRef) { }
+private  = inject(); }
 
   ngAfterViewInit(): void {
   }

@@ -11,7 +11,7 @@ import { QuizzesService } from '../quizzes/quizzes.service';
 import { ToastrService } from 'ngx-toastr';
 import { TranslateService } from '@ngx-translate/core';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-joboffer',
   templateUrl: './joboffer.component.html',
   styleUrls: ['./joboffer.component.scss']

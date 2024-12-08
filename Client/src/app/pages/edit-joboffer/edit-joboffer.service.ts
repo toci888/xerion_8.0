@@ -11,7 +11,7 @@ import {JobOffer, JobOfferGet} from "../../shared/models/jobOffer";
 })
 export class EditJobofferService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   private get controller() {
     return "api/Job"

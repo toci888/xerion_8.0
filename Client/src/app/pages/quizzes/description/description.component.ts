@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 import { TimerComponent } from '../timer/timer.component';
 import { TimerService } from '../timer/timer.service';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'questions-x',
   templateUrl: './questions.component.html',
   styleUrls: ['./questions.component.scss']

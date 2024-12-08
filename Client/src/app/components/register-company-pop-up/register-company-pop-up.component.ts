@@ -18,7 +18,7 @@ import {AccountService} from 'src/app/shared/services/user-service.service';
 import {CompaniesPageComponent} from "../../pages/companiespage/companies-page.component";
 import {CompanyPageService} from "../../pages/companiespage/companies-page.service";
 
-@Component({
+@Component({ standalone: true, 
     selector: 'app-register-company-pop-up',
     templateUrl: './register-company-pop-up.component.html',
     styleUrls: ['./register-company-pop-up.component.scss']

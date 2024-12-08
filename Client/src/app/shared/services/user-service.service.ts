@@ -14,7 +14,7 @@ import { RefreshToken } from '../helpers/interceptors/basic-interceptor.intercep
 export class AccountService {
     baseUrl = localUrl;
 
-    constructor(private http: HttpClient, private route: Router) {}
+    private  = inject();}
 
     private get controller() {
         return 'api/Account';

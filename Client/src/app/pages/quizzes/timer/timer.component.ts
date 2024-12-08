@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { TimerService } from './timer.service';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'timer',
   templateUrl: './timer.component.html',
   styleUrls: ['./timer.component.scss']
@@ -13,7 +13,7 @@ export class TimerComponent {
   isTimeExceeded: boolean = false;
   @Input() totalTime: string | null | undefined;
 
-  constructor(private timerService: TimerService) {
+  private  = inject();
 
   }
   

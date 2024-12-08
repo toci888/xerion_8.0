@@ -9,7 +9,7 @@ import { QuizzesListService } from './quizzes-list-component.service';
 import { JobsQuickInfo } from 'src/app/shared/models/jobOffer';
 import { TechList } from 'src/app/shared/constants/constants';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-quizzes-list-component',
   templateUrl: './quizzes-list-component.component.html',
   styleUrls: ['./quizzes-list-component.component.scss']

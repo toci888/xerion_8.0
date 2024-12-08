@@ -8,7 +8,7 @@ import { localUrl } from 'src/app/shared/constants/constants';
 @Injectable({ providedIn: 'root' })
 export class LoginRegisterService {
     
-    constructor(private http: HttpClient) { }
+    private  = inject(); }
 
     private get controller() {
         return "api/Account"

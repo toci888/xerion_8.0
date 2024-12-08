@@ -16,7 +16,7 @@ import { SHA256 } from 'crypto-js';
 import { Router } from '@angular/router';
 import { AccountService } from 'src/app/shared/services/user-service.service';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-register-pop-up',
   templateUrl: './register-pop-up.component.html',
   styleUrls: ['./register-pop-up.component.scss']

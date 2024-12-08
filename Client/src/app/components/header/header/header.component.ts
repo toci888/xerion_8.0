@@ -6,7 +6,7 @@ import {Router} from "@angular/router";
 import { DateAdapter } from '@angular/material/core';
 import { icons } from 'src/app/shared/constants/constants';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']

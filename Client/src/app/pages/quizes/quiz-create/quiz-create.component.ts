@@ -9,7 +9,7 @@ import { QuizData, QuizDto } from 'src/app/shared/models/quizzes';
 import { QuizMapper } from '../../quizzes/quiz-mapper';
 import { v4 as uuidv4 } from 'uuid';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-quiz-create',
   templateUrl: './quiz-create.component.html',
   styleUrls: ['./quiz-create.component.scss']

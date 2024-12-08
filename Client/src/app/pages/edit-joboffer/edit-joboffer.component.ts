@@ -7,7 +7,7 @@ import {CompanySize, JobType, NecessarySkill, TechList, ToolsList} from "../../s
 import {CompanyPageService} from "../companypage/company-page.service";
 import {CompanyProfile} from "../../shared/models/companies";
 
-@Component({
+@Component({ standalone: true, 
     selector: 'app-edit-joboffer',
     templateUrl: './edit-joboffer.component.html',
     styleUrls: ['./edit-joboffer.component.scss']

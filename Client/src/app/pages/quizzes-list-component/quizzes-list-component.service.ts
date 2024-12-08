@@ -10,7 +10,7 @@ import { JobsQuickInfo } from 'src/app/shared/models/jobOffer';
 })
 export class QuizzesListService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   private get controller() {
     return "api/Job"

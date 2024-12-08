@@ -5,7 +5,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {JobOfferAppliesService} from './job-offer-applies.service';
 import {JobOfferApplies} from "../../shared/models/jobOfferApplies";
 
-@Component({
+@Component({ standalone: true, 
     selector: 'app-job-offer-applies',
     templateUrl: './job-offer-applies.component.html',
     styleUrls: ['./job-offer-applies.component.scss']

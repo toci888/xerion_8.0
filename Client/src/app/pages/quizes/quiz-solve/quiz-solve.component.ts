@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { images } from 'src/app/shared/constants/constants';
 import { QuizModel } from 'src/app/shared/models/quiz';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-quiz-solve',
   templateUrl: './quiz-solve.component.html',
   styleUrls: ['./quiz-solve.component.scss']
@@ -44,7 +44,7 @@ export class QuizSolveComponent {
   public quiz!: QuizModel;
   public showResultScreen: boolean = false;
 
-  constructor() { 
+  private  = inject(); 
 
 
     this.quiz = {

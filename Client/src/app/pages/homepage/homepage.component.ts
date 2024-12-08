@@ -3,7 +3,7 @@ import { HomepageService } from './homepage.service';
 import { Job, JobsQuickInfo } from 'src/app/shared/models/jobOffer';
 import {TechList} from "../../shared/constants/constants";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.scss']

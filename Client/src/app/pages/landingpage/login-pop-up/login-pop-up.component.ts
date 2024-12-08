@@ -10,7 +10,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { SHA256 } from 'crypto-js';
 import { AccountService } from 'src/app/shared/services/user-service.service';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-login-pop-up',
   templateUrl: './login-pop-up.component.html',
   styleUrls: ['./login-pop-up.component.scss']

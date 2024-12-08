@@ -8,7 +8,7 @@ import {
 } from 'src/app/components/register-company-pop-up/register-company-pop-up.component';
 import {AreYouSurePopUpComponent} from "../../components/are-you-sure-pop-up/are-you-sure-pop-up.component";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-companiespage',
   templateUrl: './companies-page.component.html',
   styleUrls: ['./companies-page.component.scss'],

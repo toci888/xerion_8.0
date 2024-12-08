@@ -14,7 +14,7 @@ export interface Offer {
     quizid?: number;
 }
 
-@Component({
+@Component({ standalone: true, 
     selector: 'app-companypage',
     templateUrl: './company-page.component.html',
     styleUrls: ['./company-page.component.scss']

@@ -33,7 +33,7 @@ interface Skills {
   languages: AccountTechnicalSkill[];
 }
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-userpage',
   templateUrl: './user-page.component.html',
   styleUrls: ['./user-page.component.scss']
@@ -115,7 +115,7 @@ export class UserPageComponent implements AfterViewInit {
   public editLink: string = `/user/${this.currentUserID}/edit`;
   public showEditButton: boolean = (+this.currentUserID === +localStorage.getItem('userID')!);
 
-  constructor(private route: ActivatedRoute, private UserProfileService: UserProfileService, private accountService: AccountService) {
+  private  = inject();
   }
 
   ngOnInit(): void {

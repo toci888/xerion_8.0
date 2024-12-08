@@ -3,7 +3,7 @@ import { QuizAnswerDto, QuizDto, QuizQuestionDto, QuizzesAnswerDto, QuizzesQuest
 import { QuizzesService } from './quizzes.service';
 import {ActivatedRoute, Router} from '@angular/router';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-quizzes',
   templateUrl: './quizzes.component.html',
   styleUrls: ['./quizzes.component.scss']
@@ -22,7 +22,7 @@ export class QuizzesComponent {
   companyName: string = '';
   jobOfferName: string = '';
 
-  constructor(protected quizzesService: QuizzesService, private router: Router, private route: ActivatedRoute) {
+  private  = inject();
     quizzesService.getQuizByIdJobAdvertisement(this.jobOfferID).subscribe(res => {
       this.quiz = res.methodResult;
       // console.log(this.quiz)

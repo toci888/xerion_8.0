@@ -10,7 +10,7 @@ import { QuizAnswerDto, QuizData, QuizDto, QuizzesAnswerDto, QuizzesResultDto } 
 })
 export class QuizzesService {
 
-  constructor(private http: HttpClient) { }
+  private  = inject(); }
 
   getQuizByIdJobAdvertisement(idJobAdvertisement: number): Observable<ReturnedResponse<QuizDto>> {
     return this.http.get<ReturnedResponse<QuizDto>>(quizzesUrl + `/get-quiz-by-idJobAdvertisement?idJobAdvertisement=${idJobAdvertisement}`);

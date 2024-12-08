@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ElementRef, EventEmitter, Input, OnChanges, O
 import { FormControl, FormGroup } from '@angular/forms';
 import { QuizModel } from 'src/app/shared/models/quiz';
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-complete-sentence-question',
   templateUrl: './complete-sentence-question.component.html',
   styleUrls: ['./complete-sentence-question.component.scss']

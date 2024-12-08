@@ -3,7 +3,7 @@ import {MatDialog} from "@angular/material/dialog";
 import {AreYouSurePopUpComponent} from "../../components/are-you-sure-pop-up/are-you-sure-pop-up.component";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-listjoboffers',
   templateUrl: './listjoboffers.component.html',
   styleUrls: ['./listjoboffers.component.scss'],
@@ -28,7 +28,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 })
 export class ListjoboffersComponent {
 
-  constructor(private popUp: MatDialog,) {
+  private  = inject();
   }
 
   company = {

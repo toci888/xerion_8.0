@@ -6,7 +6,7 @@ import {ActivatedRoute, Router} from '@angular/router';
 import {ToastrService} from "ngx-toastr";
 import {TranslateService} from "@ngx-translate/core";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-edit-user-profile',
   templateUrl: './edit-user-profile.component.html',
   styleUrls: ['./edit-user-profile.component.scss'],

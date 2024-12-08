@@ -7,7 +7,7 @@ import {CompanyProfile} from "../../shared/models/companies";
 import {CompanyPageService} from "../companypage/company-page.service";
 import {CompanySize} from "../../shared/constants/constants";
 
-@Component({
+@Component({ standalone: true, 
   selector: 'app-edit-companypage',
   templateUrl: './edit-company-page.component.html',
   styleUrls: ['./edit-company-page.component.scss']
