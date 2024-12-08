@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAPIntegration", "SAP\SAPIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Intotech.Xerion.API", "Toci.Intotech.Xerion.API\Toci.Intotech.Xerion.API.csproj", "{1074334F-72B9-590E-B6C0-ABA476D6B679}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Intotech.Xerion.Database.Persistence", "Toci.Intotech.Xerion.Database.Persistence\Toci.Intotech.Xerion.Database.Persistence.csproj", "{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1074334F-72B9-590E-B6C0-ABA476D6B679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
