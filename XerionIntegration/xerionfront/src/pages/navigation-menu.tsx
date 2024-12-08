@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const navigation-menu = React.FC = () => {
+const navigationmenu = React.FC = () => {
     const [data, setData] = useState<any[]>([]);
 
     useEffect(() => {
@@ -14,4 +14,4 @@ const navigation-menu = React.FC = () => {
     );
 };
 
-export default navigation-menu;
+export default navigationmenu;

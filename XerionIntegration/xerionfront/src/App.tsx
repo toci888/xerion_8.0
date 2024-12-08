@@ -2,20 +2,21 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // Importy formatów (upewnij się, że ścieżki są poprawne)
-//import Home from './pages/HomePage';
-// import Dashboard from './pages/Dashboard';
+import Home from './pages/HomePage.tsx';
+ import navigationmenu from './pages/navigation-menu.tsx';
 // import Profile from './pages/Profile';
 // import Settings from './pages/Settings';
-import Quizzes from './pages/AboutPage';
+import quizzes from './pages/quizzes.tsx';
+import homePage from './pages/HomePage.tsx';
 
 const App: React.FC = () => {
   // Lista formatów (możesz dodać kolejne w miarę rozwoju)
   const routes = [
-    //{ path: '/', component: Home, name: 'Home' },
-    // { path: '/dashboard', component: Dashboard, name: 'Dashboard' },
-    // { path: '/profile', component: Profile, name: 'Profile' },
+    { path: '/', component: Home, name: 'Home' },
+     { path: '/navigationmenu', component: navigationmenu, name: 'navigationmenu' },
+    { path: '/homePage', component: homePage, name: 'homePage' },
     // { path: '/settings', component: Settings, name: 'Settings' },
-    { path: '/quizzes', component: Quizzes, name: 'Quizzes' },
+    { path: '/quizzes', component: quizzes, name: 'quizzes' },
   ];
 
   return (

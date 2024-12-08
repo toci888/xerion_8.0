@@ -1,0 +1,134 @@
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<main class="page">
+  <div class="wrapperUser">
+    <div class="sections">
+      <div class="upheader">
+        <button { quizId === 0 && showEditButton && ( mat-button class="applyButton" [routerLink]="'create-quiz'">
+          <mat-icon class="material-symbols-outlined">quiz</mat-icon>
+          <span>{{'All.Add quiz' | translate}}</span>
+        </button>
+        <button { quizId > 0 && showEditButton && ( mat-button class="applyButton" (click)="handleDeleteQuiz(quizId)">
+          <mat-icon class="material-symbols-outlined">quiz</mat-icon>
+          <span>{{'All.Delete quiz' | translate}}</span>
+        </button>
+        <ng-container { isApplyVisible() && (>
+          <button mat-button class="applyButton" (click)="applyClick()">
+            <mat-icon class="material-symbols-outlined">quiz</mat-icon>
+            <span>Aplikuj na oferte</span>
+          </button>
+        </ng-container>
+      </div>
+      <div class="header">
+        <div class="left">
+          <div class="logo">
+            <img class="avatar" alt="avatar" src="{{image}}">
+          </div>
+          <div class="companyName">
+            <div class="title">
+              <span { dataJobOffer?.job && (>{{ dataJobOffer.job.name | capitalize}}</span>
+              <span class="company" [routerLink]="'/company/' + companyId" { dataCompany?.company && (>{{dataCompany.company.name | capitalize}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div { dataJobOffer && dataJobOffer.job && dataJobOffer.job.image && (>
+            <mat-icon>location_on</mat-icon>
+            <span { dataJobOffer?.job && (>{{dataJobOffer.job.image | capitalize}}</span>
+          </div>
+          <div>
+            <mat-icon>work</mat-icon>
+            <span { dataJobOffer?.job && (>{{JobType[dataJobOffer.job.employmenttype]}}</span>
+          </div>
+          <div>
+            <mat-icon>calendar_month</mat-icon>
+            <span
+              { dataJobOffer?.job && (>Oferta ważna do: {{dataJobOffer.job.expirationdate | date:'shortDate'}}</span>
+          </div>
+        </div>
+      </div>
+      <div { dataJobOffer?.job && ( class="about">
+        <p { dataJobOffer.job.description && (>Opis oferty:</p>
+        <p class="aboutInfo">{{dataJobOffer.job.description | capitalize}}</p>
+      </div>
+      <ng-container { dataJobOffer?.jobTechnologies && (>
+      <div class="technology" { showPlatformSection(dataJobOffer.jobTechnologies, 1) && (>
+        <p>Technologie:</p>
+        <mat-grid-list cols="2" rowHeight="50px">
+          <ng-container *ngFor="let icon of dataJobOffer.jobTechnologies">
+            <mat-grid-tile { icon.idtechnology === 1 && icon!.icon && (>
+              <ng-container { isNumber(icon.icon); then numberTemplate else notNumberTemplate && (></ng-container>
+              <ng-template #numberTemplate>
+                <mat-icon matTooltip="{{TechList[icon.icon] | capitalize}}" svgIcon="{{TechList[icon.icon]}}"></mat-icon>
+                <span>{{'- ' + ((icon.description ? NecessarySkill[icon.description] : NecessarySkill[0]) | capitalize)}}</span>
+              </ng-template>
+              <ng-template #notNumberTemplate>
+                <span>{{icon.icon | capitalize}}</span>
+                <span>{{'- ' + ((icon.description ? icon.description : NecessarySkill[0]) + '' | capitalize)}}</span>
+              </ng-template>
+            </mat-grid-tile>
+          </ng-container>
+        </mat-grid-list>
+      </div>
+      </ng-container>
+      <ng-container { dataJobOffer?.jobTechnologies && (>
+      <div class="technology" { showPlatformSection(dataJobOffer.jobTechnologies, 2) && (>
+        <p>Platformy:</p>
+        <mat-grid-list cols="2" rowHeight="50px">
+          <ng-container *ngFor="let icon of dataJobOffer.jobTechnologies">
+          <mat-grid-tile { icon.idtechnology === 2 && icon!.icon && (>
+            <ng-container { isNumber(icon.icon); then numberTemplate else notNumberTemplate && (></ng-container>
+            <ng-template #numberTemplate>
+              <mat-icon matTooltip="{{ToolsList[icon.icon] | capitalize}}" svgIcon="{{ToolsList[icon.icon]}}"></mat-icon>
+              <span>{{'- ' + ((icon.description ? NecessarySkill[icon.description] : NecessarySkill[0]) | capitalize)}}</span>
+            </ng-template>
+            <ng-template #notNumberTemplate>
+              <span>{{icon.icon | capitalize}}</span>
+              <span>{{'- ' + ((icon.description ? icon.description : NecessarySkill[0]) + '' | capitalize)}}</span>
+            </ng-template>
+          </mat-grid-tile>
+          </ng-container>
+        </mat-grid-list>
+      </div>
+      </ng-container>
+      <ng-container { dataJobOffer?.jobTechnologies && (>
+      <div class="technology" { showPlatformSection(dataJobOffer.jobTechnologies, 3) && (>
+        <p>Języki:</p>
+        <mat-grid-list cols="2" rowHeight="50px">
+          <ng-container *ngFor="let icon of dataJobOffer.jobTechnologies">
+            <mat-grid-tile { icon.idtechnology === 3 && icon!.icon && (>
+              <span>{{icon.icon | capitalize}}</span>
+              <ng-container { isNumber(icon.description); then numberTemplate else notNumberTemplate && (></ng-container>
+              <ng-template #numberTemplate>
+                <span>{{'- ' + ((icon.description ? NecessarySkill[icon.description] : NecessarySkill[0]) | capitalize)}}</span>
+              </ng-template>
+              <ng-template #notNumberTemplate>
+                <span>{{'- ' + ((icon.description ? icon.description : NecessarySkill[0]) + '' | capitalize)}}</span>
+              </ng-template>
+            </mat-grid-tile>
+          </ng-container>
+        </mat-grid-list>
+      </div>
+      </ng-container>
+      <div class="tasksExpectations">
+        <div class="tasks" { showTasksExpectations(dataJobOffer?.jobDetails, 0) && (>
+          <div class="sectionHeader">
+            <span>Zadania:</span>
+          </div>
+          <ng-container *ngFor="let task of dataJobOffer?.jobDetails">
+            <p { task.iddetail == 0 && (>&#x2022; {{task.name}} </p>
+          </ng-container>
+        </div>
+        <div class="tasks" { showTasksExpectations(dataJobOffer?.jobDetails, 1) && (>
+          <div class="sectionHeader">
+            <span>Oczekiwania:</span>
+          </div>
+          <ng-container *ngFor="let task of dataJobOffer?.jobDetails">
+            <p { task.iddetail == 1 && (>&#x2022; {{task.name}} </p>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+ )) }

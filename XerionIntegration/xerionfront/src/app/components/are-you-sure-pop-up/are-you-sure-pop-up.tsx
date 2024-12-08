@@ -1,0 +1,19 @@
+<div class="popup">
+  <div class="wrapper">
+    <div class="one">
+      <span>Check </span>
+      <img src="../../../../assets/icons/logo.svg" class="filter-logo" alt="logo"/>
+      <span> Yourself</span>
+    </div>
+    <div class="two">
+      <span>{{'Are u sure.Are u' | translate}}</span>
+    </div>
+    <div class="three">
+      <form>
+        <button mat-button class="applyButtonPopUp" (click)="closeDialog('tak')"><span>{{'Are u sure.Yes' | translate}}</span></button>
+        <button mat-button class="applyButtonPopUp" (click)="closeDialog('nie')"><span>{{'Are u sure.No' | translate}}</span></button>
+      </form>
+    </div>
+  </div>
+</div>
+ )) }

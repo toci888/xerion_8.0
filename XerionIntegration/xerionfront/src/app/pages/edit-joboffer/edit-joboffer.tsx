@@ -1,0 +1,235 @@
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<main class="page">
+    <div class="wrapperUser">
+        <form [formGroup]="jobOfferEditForm">
+            <div class="sections">
+                <div class="upheader">
+                    <a class="return-button" matTooltip="{{'UserPage.Return to profile' | translate}}">
+                        <button mat-raised-button type="button" routerLink="/company" color="accent">
+                            {{'UserPage.Return' | translate}}
+                        </button>
+                    </a>
+                    <a class="save-button">
+                        <button mat-raised-button type="button" (click)="saveJob()" color="warn">Save</button>
+                    </a>
+                </div>
+                <div class="header">
+                    <div class="left">
+                        <div class="logo">
+                            <img class="avatar" alt="avatar" src="{{image ? image : '../../../assets/images/logoEmpty.png'}}">
+                        </div>
+                        <div class="companyName">
+                            <div class="title">
+                                <mat-form-field>
+                                    <mat-label>Nazwa stanowiska</mat-label>
+                                    <input matInput
+                                           placeholder="Nazwa stanowiska"
+                                           formControlName="nameJob"
+                                           type="text">
+                                </mat-form-field>
+                                <span>{{companyName}}</span>
+                            </div>
+                            <div class="icons">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <mat-icon class="material-icons-outlined">pin_drop</mat-icon>
+                            <mat-form-field>
+                                <mat-label>Miejscowość</mat-label>
+                                <input matInput
+                                       placeholder="Location"
+                                       formControlName="locationJobOffer"
+                                       type="text">
+                            </mat-form-field>
+                        </div>
+                        <div>
+                            <mat-icon class="material-icons-outlined">hourglass_top</mat-icon>
+                            <mat-form-field appearance="outline">
+                                <mat-label>Etat</mat-label>
+                                <mat-select formControlName="jobType">
+                                    <mat-option *ngFor="let key of filterKeys(JobType)" [value]="key">
+                                        {{ JobType[key] }}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div>
+                            <mat-icon class="material-icons-outlined">calendar_month</mat-icon>
+                            <mat-form-field appearance="outline" class="date-picker">
+                                <mat-label>Data końca oferty</mat-label>
+                                <input matInput [matDatepicker]="picker" formControlName="dateEndOffer">
+                                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+                <div class="about">
+                    <p>Opis oferty:</p>
+                    <span>
+                        <mat-form-field class="about-me-field" appearance="outline">
+                                                    <textarea matInput
+                                                              #aboutMe
+                                                              maxlength="2000"
+                                                              type="text"
+                                                              placeholder="Napisz coś o ofercie"
+                                                              formControlName="aboutJobOffer"
+                                                              cdkTextareaAutosize
+                                                    ></textarea>
+                                                    <mat-hint align="end">{{aboutMe.value.length}}/2000</mat-hint>
+                                                </mat-form-field>
+                    </span>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p>Technologie:</p>
+                        <div class="section">
+                            <mat-card formArrayName="jobTechnologies" class="card"
+                                      *ngFor="let jobTech of jobTechnologies.controls; let i = index">
+                                <mat-card-content { jobTech.value.idtechnology === 1 && ( [formGroupName]="i">
+                                    <div class="delete">
+                                        <mat-icon class="material-icons-outlined" (click)="removeAtIndex('jobTechnologies', i)">delete_outline
+                                        </mat-icon>
+                                    </div>
+                                    <div>
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Technologia:</mat-label>
+                                            <mat-select formControlName="icon">
+                                                <mat-option *ngFor="let key of filterKeys(TechList)" [value]="key">
+                                                    {{ TechList[key] }}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                    <div>
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Wymagany poziom:</mat-label>
+                                            <mat-select formControlName="description">
+                                                <mat-option *ngFor="let key of filterKeys(NecessarySkill)" [value]="key">
+                                                    {{ NecessarySkill[key] }}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                            <div class="add-under-cards">
+                                <mat-icon class="material-icons-outlined add-button" (click)="addJobTechnologies(1)">add_circle_outline</mat-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>Narzędzia:</p>
+                        <div class="section">
+                            <mat-card formArrayName="jobTechnologies" class="card"
+                                      *ngFor="let jobTech of jobTechnologies.controls; let i = index">
+                                <mat-card-content { jobTech.value.idtechnology === 2 && ( [formGroupName]="i">
+                                    <div class="delete">
+                                        <mat-icon class="material-icons-outlined" (click)="removeAtIndex('jobTechnologies', i)">delete_outline
+                                        </mat-icon>
+                                    </div>
+                                    <div>
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Narzędzie:</mat-label>
+                                            <mat-select formControlName="icon">
+                                                <mat-option *ngFor="let key of filterKeys(ToolsList)" [value]="key">
+                                                    {{ ToolsList[key] }}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                    <div>
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Wymagany poziom:</mat-label>
+                                            <mat-select formControlName="description">
+                                                <mat-option *ngFor="let key of filterKeys(NecessarySkill)" [value]="key">
+                                                    {{ NecessarySkill[key] }}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                            <div class="add-under-cards">
+                                <mat-icon class="material-icons-outlined add-button" (click)="addJobTechnologies(2)">add_circle_outline</mat-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item">
+                        <p>Języki:</p>
+                        <div class="section">
+                            <mat-card formArrayName="jobTechnologies" class="card"
+                                      *ngFor="let jobTech of jobTechnologies.controls; let i = index">
+                                <mat-card-content { jobTech.value.idtechnology === 3 && ( [formGroupName]="i">
+                                    <div class="delete">
+                                        <mat-icon class="material-icons-outlined" (click)="removeAtIndex('jobTechnologies', i)">delete_outline
+                                        </mat-icon>
+                                    </div>
+                                    <div>
+                                        <mat-form-field>
+                                            <mat-label>Język</mat-label>
+                                            <input matInput
+                                                   placeholder="Język"
+                                                   formControlName="icon"
+                                                   type="text">
+                                        </mat-form-field>
+                                    </div>
+                                    <div>
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Wymagany poziom:</mat-label>
+                                            <mat-select formControlName="description">
+                                                <mat-option *ngFor="let key of filterKeys(NecessarySkill)" [value]="key">
+                                                    {{ NecessarySkill[key] }}
+                                                </mat-option>
+                                            </mat-select>
+                                        </mat-form-field>
+                                    </div>
+                                </mat-card-content>
+                            </mat-card>
+                            <div class="add-under-cards">
+                                <mat-icon class="material-icons-outlined add-button" (click)="addJobTechnologies(3)">add_circle_outline</mat-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="details">
+            <div class="left">
+                <p>Główne zadania:</p>
+                <ng-container *ngFor="let o of mainExpJobs; let i = index; trackBy: trackById">
+                    <div { o.iddetail === 0 && (>
+                    <mat-form-field>
+                        <input matInput
+                               class="card-input-field"
+                               placeholder="Zadanie"
+                               [(ngModel)]="o.name">
+                    </mat-form-field>
+                    <mat-icon style="margin-left: 30px" (click)="delMainExpJobs(i)">delete_circle_outline</mat-icon>
+                </div>
+                </ng-container>
+                <mat-icon (click)="addMainExpJobs('', 0)">add_circle_outline</mat-icon>
+            </div>
+            <div class="middle"></div>
+            <div class="right">
+                <p>Czego oczekujemy:</p>
+                <ng-container *ngFor="let o of mainExpJobs; let i = index; trackBy: trackById">
+                <div { o.iddetail === 1 && (>
+                    <mat-form-field>
+                        <input matInput
+                               class="card-input-field"
+                               placeholder="Oczekiwanie"
+                               [(ngModel)]="o.name">
+                    </mat-form-field>
+                    <mat-icon style="margin-left: 30px" (click)="delMainExpJobs(i)">delete_circle_outline</mat-icon>
+                </div>
+                </ng-container>
+                <mat-icon (click)="addMainExpJobs('', 1)">add_circle_outline</mat-icon>
+            </div>
+        </div>
+    </div>
+</main>
+ )) }

@@ -1,0 +1,27 @@
+<div class="navbar">
+  <a>Profil > np Tmobile > {{quiz.quiz.name}}</a>
+</div>
+<div class="background">
+    <div class="content">
+
+      <a class="title">Junior C# Developer - Twing team</a>
+      <a class="description">Cześć. Jesteśmy szybko rozwijającą się ekipą różnorakich osobistości, które łączy wspólna pasja oraz praca. Przygotowany przez nas dwuczęściowy egzamin sprawdzi waszą wiedzę oraz umiejętności z zakresu technologi C#. Niezależnie od posiadanego przez was zaplecza doświadczenia oraz umiejętności profilaktycznie zalecamy zapoznanie się z danymi materiałami oraz wykładami, które mogą wam wyjaśnić kilka zagadanień, których mogliście nie znać, co pokażę również waszą umiejętność adaptacji. W przypadku jakichkolwiek pytań co do zagadnień można się zemną kontaktować mailowo chętnie wytłumaczę niektórę zagadnienia. Powodzenia i do zobaczenia w Twing team.  
+        <br>
+        <br>Senior developer
+        <br>Joanna Stasik 
+        <br>joasta@gmail.com </a>
+
+      <div class="line"></div>
+
+      <div class="quiz-info">
+          <div>Nazwa Quizu: <a>Frontend developer</a></div>
+          <div>Ilość Pytań: <a>20</a></div>
+          <div>Czas Trwania: <a>20min</a></div>
+          <div>Przypisane Firmy: <a>Tmobile</a></div>
+      </div>
+      
+      <button class="next" { quizQuestions.length > currentQuestionNumber+1 && ( (click)="onNext($event)">Rozwiąż quizz</button>
+      <button class="next" { quizQuestions.length == currentQuestionNumber+1 && ( (click)="submit()">FINISH</button>
+    </div>
+</div>
+ )) }
