@@ -1,0 +1,222 @@
+{
+  "CompaniesPage": {
+    "Add company": "+ Add new company",
+    "No offer": "No offers available",
+    "Add job": "Add job offer",
+    "Edit": "Edit",
+    "Delete": "Delete"
+  },
+
+  "Tools": "Tools",
+  "ForeignLanguages": "Foreign languages",
+  "Listjob": {
+    "No offer": "No offers available",
+    "Add job": "Add job offer",
+    "Delete": "Delete"
+  },
+
+  "Are u sure": {
+    "Are u": "Are u sure?",
+    "Yes": "Yes",
+    "No": "No"
+  },
+
+  "HomePage": {
+    "Awesome text": "English Awesome",
+    "Change to": "Change to Polish",
+    "Find job": "Check Yourself! Find your dream job!",
+    "Jobs": "Job offers",
+    "Find offers": "Find job offers that match your skills! See what skills employers require for specific positions.",
+    "Apply": "Apply",
+    "See offer": "See offer"
+  },
+
+  "LandingPage": {
+    "Increase your CV responses": "Increase your CV responses",
+    "Check yourself": "Check yourself",
+    "Find an employee": "Find an employee",
+    "Only": "Only",
+    "Of IT ads are targetted to Juniors": "of IT ads are targetted to juniors...",
+    "Take up a challange": "Take up a challange!",
+    "Check your skill level": "1. Check your skill level",
+    "Apply and learn all in one": "2. Apply and learn all in one",
+    "Let employer find you": "3. Let employer find you",
+    "Develop yourself": "4. Develop yourself",
+    "Sign up": "Sign up",
+    "Veification": "verification successful",
+    "Veification failed": "verification failed"
+  },
+
+  "Footer": {
+    "About us": "About us",
+    "Terms and Conditions": "Terms and Conditions",
+    "Privacy policy": "Privacy policy",
+    "Contact us": "Contact us",
+    "How Check Yourself works": "How Check Yourself works",
+    "Security policy": "Security policy",
+    "News": "News"
+
+  },
+  "Login": {
+    "Log in": "Log in",
+    "Sign up": "Sign up",
+    "Sign up as": "Sign up as:",
+    "User": "User",
+    "Company": "Company",
+    "Name": "Name",
+    "Email": "Email",
+    "Surname": "Surname",
+    "Name of Company": "Name of Company",
+    "TIN": "TIN",
+    "You must enter your tax identification number": "You must enter your tax identification number",
+    "Only numbers": "Only numbers",
+    "Password": "Password",
+    "Password min 8 characters": "Password (min 8 characters)",
+    "Confirm password": "Confirm password",
+    "Forgot password": "Forgot password? ",
+    "You do not have an account": "You do not have an account? ",
+    "You already have an accout": "You already have an account? ",
+    "Create an account": "Create an account",
+    "You must enter your name": "You must enter your name",
+    "You must enter your surname": "You must enter your surname",
+    "You must enter your password": "You must enter your password",
+    "You must enter name of your company": "You must enter name of your company",
+    "Passwords does not match": "Passwords do not match",
+    "You must enter your Email": "You must enter your Email",
+    "Wrong email": "Wrong email",
+    "Space not allowed": "Space not allowed" ,
+    "I accept protection policy": "I accept the regulation along with the personal data protection policy",
+    "Registered successfully": "Registered successfully. Confirm Email",
+    "E-mail is not verified": "E-mail is not confirmed",
+    "No such account": "No such account",
+    "Account exists": "Account exists",
+    "Successfully logged in": "Successfully logged in",
+    "Wrong password": "Wrong password",
+    "You must enter name headquoter location": "You must enter name headquoter location",
+    "Headquarter address": "Headquarter address"
+  },
+  "UserPage": {
+    "About me": "About me",
+    "Skills": "Skills",
+    "Experience": "Experience",
+    "Education": "Education",
+    "Courses and certificates": "Courses and certificates",
+    "Edit profile": "Edit profile",
+    "Return": "Return",
+    "Return to profile": "Return to profile"
+  },
+  "Quiz": {
+    "Welcome":"Welcome in quiz ",
+    "Profile":"Profile ",
+    "Name":"Quiz name: ",
+    "Question_no": "Number of questions: ",
+    "Points_no": "Total points: ",
+    "Time":"Time (min): ",
+    "Min": "Min Points(%): ",
+    "Company":"Assigned company: ",
+    "Question": "Question: ",
+    "Single Question": "Single choice question",
+    "Multi Question": "Multiple choice question",
+    "Start Quiz": "Start Quiz",
+    "Next Question": "Next Question",
+    "Prev Question": "Previous Question",
+    "Result of Quiz": "Finish the quiz",
+    "Result": "Result of the quiz: ",
+    "Leave": "Leave the quiz",
+    "Passed":"Passed",
+    "Failed":"Failed",
+    "Your time":"Your time: ",
+    "info1":"You obtained the total ",
+    "info2":" of ",
+    "info3":" points by obtaining a result ",
+    "Correct":"Correct answers",
+    "Wrong":"Wrong answers"
+  },
+  "QuizCreator":{
+    "Name": "Quiz Name: ",
+    "Time": "Max Duration (minutes): ",
+    "Points": "Correct answer score: ",
+    "Max": "Max points: ",
+    "Min": "Min Points(%): ",
+    "Description": "Quiz Description: ",
+    "Tech": "Quiz Technology: ",
+    "Answer": "Correct Answer: ",
+    "Badanswer": "False Answer: ",
+    "Question": "Question: ",
+    "Add": "Add Question",
+    "Addgood": "Add Correct Answer",
+    "Addbad": "Add False Answer",
+    "Removegood": "Remove Correct Answer",
+    "Removebad": "Remove False Answer",
+    "Remove": "Remove Question",
+    "Save": "Submit",
+    "Namereq": "Quiz Name is required",
+    "Timereq": "Max Duration is required",
+    "Maxreq": "Max Points is required",
+    "Minreq": "Quiz Name is required",
+    "Descriptionreq": "Quiz Description is required",
+    "Techreq": "Quiz Technology is required",
+    "Questionreq": "Question content is required",
+    "Answerreq": "Correct Answer  is required",
+    "Pointsreq": "Correct Answer Score is required",
+    "Badanswerreq": "False Answer is required",
+    "Tools": "Tools",
+    "ForeignLanguages": "Foreign languages",
+    "TechType": "Technology type",
+    "TechTypereq": "Technology type is required"
+  },
+  "EditUserpage": {
+    "Image uploaded": "Image uploaded",
+    "Place": "Place",
+    "Company Size": "Company Size",
+    "More than 5000": "More than 5000",
+    "Photos": "Photos",
+    "Upload": "Upload",
+    "Our offices": "Our offices",
+    "Technology": "Technology",
+    "Choose technology": "Choose technology",
+    "Tools": "Tools",
+    "Choose tools": "Choose tools",
+    "Platforms": "Platforms",
+    "Choose platforms": "Choose platforms",
+    "Enter the address": "Enter the address",
+    "Tell us about yourself": "Tell us about yourself"
+  },
+  "NavigationMenu": {
+    "My profile": "My profile",
+    "MyJobOffers": "My job offers",
+    "CompanyView": "Company",
+    "Job offers": "Job offers",
+    "Quizzes": "Quizzes",
+    "Language": "Language",
+    "Add quizz": "Add quizz",
+    "Edit quizz": "Eduit quizz",
+    "Delete quizz": "Delete quizz",
+    "View applies": "View applies",
+    "Manage quizzes": "Manage quizzes",
+    "Purchase quizz": "Purchase quizz",
+    "Check grading scale": "Check grading scale",
+    "Logout": "Logout",
+    "Add/delete company": "My companies",
+    "DeleteOffer": "Delete offer",
+    "Change language": "Change language"
+  },
+  "RegisterCompany": {
+    "Company added successfully": "Company added successfully"
+  },
+
+  "All": {
+    "Add quiz": "Add quiz",
+    "Address": "Address",
+    "Save": "Save",
+    "Delete quiz": "Delete quiz",
+    "Edit company": "Edit company"
+  },
+
+  "Error": {
+    "UnableToDoIt": "Unable to do it"
+  }
+}
+
+
+

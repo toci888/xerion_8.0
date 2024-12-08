@@ -1,0 +1,128 @@
+$margin: 20px;
+
+.sections {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  & .upheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+
+      .logo {
+        input[type="file"] {
+          display: none;
+        }
+      }
+
+      .custom-file-upload:hover {
+        cursor: pointer;
+      }
+
+      .companyName {
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+
+        span {
+          font-size: 24px;
+        }
+
+        .icons {
+          height: 44px;
+        }
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      margin-right: 50px;
+    }
+
+    & .avatar {
+      width: 135px;
+      height: 135px;
+      border-radius: 10%;
+    }
+  }
+
+  .about {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+
+    .about-me-field {
+      width: 100%;
+      min-height: 150px;
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+
+  .grid-item {
+    margin-top: 50px;
+
+    .section {
+      display: flex;
+      flex-direction: column;
+
+      .delete {
+        display: flex;
+        justify-content: flex-end;
+
+        mat-icon {
+          cursor: pointer;
+        }
+      }
+
+      .add-under-cards {
+        margin-top: 10px;
+
+        mat-icon {
+          cursor: pointer;
+        }
+      }
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+
+  .mat-icon {
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+}

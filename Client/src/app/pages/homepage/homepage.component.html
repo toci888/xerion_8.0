@@ -1,0 +1,50 @@
+<div class="custom-section">
+    <div class="background-image"></div>
+    <div class="content">
+        <h1>{{'HomePage.Find job' | translate}}</h1>
+        <div class="inputs">
+            <input type="text" placeholder="Junior Java Developer..." class="finddev" [(ngModel)]="searchTerm"
+                   (ngModelChange)="searchJobs()"/>
+            <input type="text" placeholder="Poznań" class="locatedev" [(ngModel)]="locationTerm"
+                   (ngModelChange)="searchJobs()"/>
+        </div>
+    </div>
+</div>
+
+<div class="info-section">
+    <div class="title">
+        <h1>{{'HomePage.Jobs' | translate}}</h1>
+    </div>
+    <div class="subtitle">
+        <h2>{{'HomePage.Find offers' | translate}}</h2>
+    </div>
+</div>
+
+<div class="jobOffers" id="ofert">
+    <div class="offer" *ngFor="let job of jobs">
+        <div class="left">
+            <a href="/joboffer/{{job.job.id}}" class="logocompany">
+                <img class="avatar" alt="avatar" src="{{job.company.logo ? job.company.logo : '../../../assets/images/logoEmpty.png'}}">
+            </a>
+            <div class="companyName">
+                <a href="/joboffer/{{job.job.id}}" class="jobname">
+                    <span>{{job.job.name | capitalize}}</span>
+                </a>
+                <a href="/company/{{job.company.id}}" class="companyname">
+                    <span>{{job.company.name | capitalize}}</span>
+                </a>
+            </div>
+        </div>
+        <div class="center">
+            <div class="tags" *ngFor="let technology of job.jobTechnologies.slice(0, 4)">
+                <div class="tag" *ngIf="technology.icon !== ''">
+                    {{ getTechName(technology.icon) | capitalize }}
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <p>{{(job.job.image ? job.job.image : job.company.headquarteraddress) | capitalize}}</p>
+            <button mat-button class="applyButton" [routerLink]="'/joboffer/' + job.job.id"><span>{{'HomePage.See offer' | translate}}</span></button>
+        </div>
+    </div>
+</div>

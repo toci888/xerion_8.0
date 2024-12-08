@@ -1,0 +1,38 @@
+<div class="navbar">
+  
+  <a>{{companyName | capitalize}} > {{jobOfferName | capitalize}} > {{quiz.quiz.name | capitalize}} <span> >{{'Quiz.Question' | translate}}{{currentQuestionNumber+1}} / {{quiz.quizzesQuestions.length}}</span></a>
+  <timer [totalTime]="quiz.quiz.totaltime"></timer>
+</div>
+
+<div class="background">
+  <div class="wrapperUser">
+
+    <div class="question">{{ quizQuestions[currentQuestionNumber].question.question | capitalize}}</div>
+    <div class="questionInfo">{{getQuizInfo()}}</div>
+    <div class="answers">
+      {{quizQuestions[currentQuestionNumber].answers.length}}
+      <div [ngClass]="{ 'big-quiz': quizQuestions[currentQuestionNumber].answers.length >= 5 }" class="answer" *ngFor="let answer of quizQuestions[currentQuestionNumber].answers; let i = index">
+        <label>
+          <input
+            type="{{ quizQuestions[currentQuestionNumber].question.type === 2 ? 'checkbox' : 'radio' }}"
+            name="answers"
+            [value]="answer.id"
+            [checked]="this.isAnswerSelected(answer.id)"
+            (change)="onSelecting($event)"/>
+
+          <div class="radio-button-content">
+            <img [src]="answer.image ? answer.image : '/assets/icons/Odp_BL.svg'" alt="Answer Image">
+            <span class="question-text">{{ answer.answer | capitalize}}</span>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <button class="prev" *ngIf="currentQuestionNumber > 0"
+            (click)="onPrev()">{{'Quiz.Prev Question' | translate}}</button>
+    <button class="next" *ngIf="quizQuestions.length > currentQuestionNumber+1"
+            (click)="onNext($event)">{{'Quiz.Next Question' | translate}}</button>
+    <button class="next" *ngIf="currentQuestionNumber == null || quizQuestions.length == currentQuestionNumber+1"
+            (click)="submit()">{{'Quiz.Result of Quiz' | translate}} </button>
+  </div>
+</div>

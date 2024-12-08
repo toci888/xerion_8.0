@@ -1,0 +1,120 @@
+$margin: 50px;
+
+.sections {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .jobOffers {
+    margin-top: $margin;
+  }
+
+  .technology, .tools, .platforms, .gallery, .map {
+    margin-top: $margin;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+
+  .map {
+    height: 100%;
+    margin-bottom: $margin;
+  }
+
+  & .upheader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .edit-button {
+      display: flex;
+      margin-left: 100%;
+      margin-bottom: 5%;
+      cursor: pointer;
+    }
+  }
+
+  & .header {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+
+      .companyName {
+        min-width: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        span {
+          font-size: 24px;
+        }
+
+        .icons {
+          margin-top: 20px;
+          display: flex;
+          justify-content: flex-start;
+
+          a {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+
+    .right {
+      margin-top: 40px;
+      display: flex;
+
+      span {
+        font-size: 15px;
+        margin-top: 2px;
+      }
+
+      mat-icon {
+        margin-left: 5vw;
+      }
+    }
+
+    & .avatar {
+      width: 135px;
+      height: 135px;
+      border-radius: 10%;
+      object-fit: cover;
+    }
+  }
+}
+
+.add {
+  cursor: pointer;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.container img {
+  display: block;
+  transition: transform .4s;   /* smoother zoom */
+}
+
+.container:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;;
+}
+
+.jobName {
+  cursor: pointer
+}
+
+#location {
+  margin-right: 20px;
+}
+
+.left {
+  margin-left: 10px;
+}
