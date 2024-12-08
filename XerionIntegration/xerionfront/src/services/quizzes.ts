@@ -1,7 +1,9 @@
 import axios from 'axios';
 
-const quizzes = async () => {
-    const response = await axios.get('https://api.example.com');
+const baseUrl = 'https://api.example.com';
+
+export const quizzes = async (): Promise<any> => {
+    const response = await axios.get(\\/endpoint\);
     return response.data;
 };
 
