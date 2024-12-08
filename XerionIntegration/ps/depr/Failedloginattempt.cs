@@ -4,15 +4,15 @@ using System.Collections.Generic;
 
 namespace Intotech.Xerion.Database.Persistence.Models;
 
-public partial class Emailsregister : ModelBase
+public partial class Failedloginattempt : ModelBase
 {
     // public int Id { get; set; }
 
-    public string Email { get; set; } = null!;
+    public int Idaccount { get; set; }
 
-    public int? Verificationcode { get; set; }
-
-    public bool? Isverified { get; set; }
+    public int Kind { get; set; }
 
     public DateTime? Createdat { get; set; }
+
+    public virtual Account IdaccountNavigation { get; set; } = null!;
 }

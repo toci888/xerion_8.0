@@ -14,6 +14,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Intotech.Xerion.API", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toci.Intotech.Xerion.Database.Persistence", "Toci.Intotech.Xerion.Database.Persistence\Toci.Intotech.Xerion.Database.Persistence.csproj", "{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Common.Bll", "..\..\Intotech.Common\Intotech.Common.Bll\Intotech.Common.Bll.csproj", "{6B357630-0BC3-5968-2495-306C21173688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Common.Bll.Interfaces", "..\..\Intotech.Common\Intotech.Common.Bll.Interfaces\Intotech.Common.Bll.Interfaces.csproj", "{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Common.Database.Interfaces", "..\..\Intotech.Common\Intotech.Common.Database.Interfaces\Intotech.Common.Database.Interfaces.csproj", "{F24FAE86-7F1E-A69F-5236-5CCB9C68C381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intotech.Common.Database", "..\..\Intotech.Common\Intotech.Common.Database\Intotech.Common.Database.csproj", "{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,9 +54,31 @@ Global
 		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEE40C34-9B1F-4FB5-ADDD-7C34BC5225F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B357630-0BC3-5968-2495-306C21173688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B357630-0BC3-5968-2495-306C21173688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B357630-0BC3-5968-2495-306C21173688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B357630-0BC3-5968-2495-306C21173688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24FAE86-7F1E-A69F-5236-5CCB9C68C381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24FAE86-7F1E-A69F-5236-5CCB9C68C381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24FAE86-7F1E-A69F-5236-5CCB9C68C381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24FAE86-7F1E-A69F-5236-5CCB9C68C381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B357630-0BC3-5968-2495-306C21173688} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9F3078AE-5DED-D41C-9FEB-FB39D5F815E6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F24FAE86-7F1E-A69F-5236-5CCB9C68C381} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EBCC21D9-2DCE-2CC9-57B4-9161FBDD809D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8BFCEF4-C8CB-4B38-9D70-4FF3EF44EC53}

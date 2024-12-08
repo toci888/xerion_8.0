@@ -19,7 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\..\..\Intotech.Common\Intotech.Common.Bll.Interfaces\Intotech.Common.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Intotech.Common\Intotech.Common.Bll\Intotech.Common.Bll.csproj" />
+    <ProjectReference Include="..\..\..\Intotech.Common\Intotech.Common.Database.Interfaces\Intotech.Common.Database.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\Intotech.Common\Intotech.Common.Database\Intotech.Common.Database.csproj" />
   </ItemGroup>
 
 </Project>

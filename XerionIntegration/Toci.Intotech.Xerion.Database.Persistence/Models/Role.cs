@@ -4,13 +4,11 @@ using System.Collections.Generic;
 
 namespace Intotech.Xerion.Database.Persistence.Models;
 
-public partial class Resetpassword : ModelBase
+public partial class Role : ModelBase
 {
     // public int Id { get; set; }
 
-    public string Email { get; set; } = null!;
+    public string? Name { get; set; }
 
-    public int Verificationcode { get; set; }
-
-    public DateTime? Createdat { get; set; }
+    public virtual ICollection<Account> Accounts { get; } = new List<Account>();
 }
