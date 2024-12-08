@@ -9,7 +9,7 @@ public class EmailSender : IEmailSender
     protected IEmailUtil EmailsSender = new EmailUtil(new EmailSettings()
     {
         AdminLoginAddress = "admin@intotech.com.pl",
-        AdminPassword = "Toci123.",
+        AdminPassword = "",
         Port = 587,
         SmtpAddress = "mail.intotech.com.pl"
     });
