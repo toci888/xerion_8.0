@@ -1,0 +1,7 @@
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
+Install-Package Npgsql.EntityFrameworkCore.PostgreSQL.Design
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+dotnet tool install --global dotnet-ef
+
+dotnet ef dbcontext scaffold "Host=localhost;Database=Intotech.Xerion.Dictionaries;Username=postgres;Password=beatka" Npgsql.EntityFrameworkCore.PostgreSQL -o Models --project Intotech.Xerion.Dictionaries.Database.Persistence -f

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Http\" />
+    <Folder Include="I18n\Managers\" />
+    <Folder Include="Emails\" />
+    <Folder Include="CachingService\" />
+    <Folder Include="ImageService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Enyim.Memcached2" Version="0.6.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Bll.Interfaces\Intotech.Common.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Bll\Intotech.Common.Bll.csproj" />
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Microservices\Intotech.Common.Microservices.csproj" />
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Tests\Intotech.Common.Tests.csproj" />
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common\Intotech.Common.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Models\Intotech.Xerion.Bll.Models.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Common.Interfaces\Intotech.Xerion.Common.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Companies\Intotech.Xerion.Companies.Database.Persistence\Intotech.Xerion.Companies.Database.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Companies\Intotech.Xerion.Companies.Database\Intotech.Xerion.Companies.Database.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Database.Persistence\Intotech.Xerion.Database.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Database\Intotech.Xerion.Database.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Dictionaries\Intotech.Xerion.Dictionaries.Bll.Persistence\Intotech.Xerion.Dictionaries.Bll.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Dictionaries\Intotech.Xerion.Dictionaries.Database.Persistence\Intotech.Xerion.Dictionaries.Database.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Dictionaries\Intotech.Xerion.Dictionaries.Database\Intotech.Xerion.Dictionaries.Database.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Quizzes\Intotech.Xerion.Quizzes.Database.Persistence\Intotech.Xerion.Quizzes.Database.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Quizzes\Intotech.Xerion.Quizzes.Database\Intotech.Xerion.Quizzes.Database.csproj" />
+  </ItemGroup>
+
+</Project>

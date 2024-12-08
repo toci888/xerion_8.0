@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common\Intotech.Common.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Interfaces\Intotech.Xerion.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Persistence.Interfaces\Intotech.Xerion.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Persistence\Intotech.Xerion.Bll.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Common.Interfaces\Intotech.Xerion.Common.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Common\Intotech.Xerion.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Accounts\" />
+    <Folder Include="DtoBll\AccountBllDto\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+</Project>

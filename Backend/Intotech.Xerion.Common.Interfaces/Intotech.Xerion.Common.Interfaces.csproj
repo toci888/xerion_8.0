@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="I18n\" />
+    <Folder Include="Emails\" />
+    <Folder Include="CachingService\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Bll.Interfaces\Intotech.Common.Bll.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["Backend/Intotech.Xerion.Companies/Intotech.Xerion.Companies.Api/Intotech.Xerion.Companies.Api.csproj", "Backend/Intotech.Xerion.Companies/Intotech.Xerion.Companies.Api/"]
+RUN dotnet restore "Backend/Intotech.Xerion.Companies/Intotech.Xerion.Companies.Api/Intotech.Xerion.Companies.Api.csproj"
+COPY . .
+WORKDIR "/src/Backend/Intotech.Xerion.Companies/Intotech.Xerion.Companies.Api"
+RUN dotnet build "Intotech.Xerion.Companies.Api.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Intotech.Xerion.Companies.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Intotech.Xerion.Companies.Api.dll"]

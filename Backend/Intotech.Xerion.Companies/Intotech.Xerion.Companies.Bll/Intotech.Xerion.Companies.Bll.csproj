@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Intotech.Xerion.Bll.Persistence\Intotech.Xerion.Bll.Persistence.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Common\Intotech.Xerion.Common.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Quizzes\Intotech.Xerion.Quizzes.Bll.Persistence.Interfaces\Intotech.Xerion.Quizzes.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Companies.Bll.Interfaces\Intotech.Xerion.Companies.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Companies.Bll.Persistence.Interfaces\Intotech.Xerion.Companies.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Companies.Database.Persistence\Intotech.Xerion.Companies.Database.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

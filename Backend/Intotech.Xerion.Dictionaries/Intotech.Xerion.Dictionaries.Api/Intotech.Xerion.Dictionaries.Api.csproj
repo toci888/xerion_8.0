@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b83e508b-0216-4baf-a246-803c38a83e2a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\intotech.common\Intotech.Common.Microservices\Intotech.Common.Microservices.csproj" />
+    <ProjectReference Include="..\..\..\..\intotech.common\Intotech.Common\Intotech.Common.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Bll.Models\Intotech.Xerion.Bll.Models.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Common\Intotech.Xerion.Common.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Manager.Interfaces\Intotech.Xerion.Bll.Manager.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Manager\Intotech.Xerion.Bll.Manager.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Dictionaries.Bll.Persistence.Interfaces\Intotech.Xerion.Dictionaries.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Dictionaries.Bll.Persistence\Intotech.Xerion.Dictionaries.Bll.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

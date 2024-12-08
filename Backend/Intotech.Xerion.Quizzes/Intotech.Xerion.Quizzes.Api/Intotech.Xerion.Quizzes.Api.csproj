@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Intotech.Xerion.Bll.Models\Intotech.Xerion.Bll.Models.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Bll.Persistence.Interfaces\Intotech.Xerion.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Bll.Persistence\Intotech.Xerion.Bll.Persistence.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Common\Intotech.Xerion.Common.csproj" />
+    <ProjectReference Include="..\..\Intotech.Xerion.Companies\Intotech.Xerion.Companies.Bll.Persistence\Intotech.Xerion.Companies.Bll.Persistence.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Bll.Manager\Intotech.Xerion.Quizzes.Bll.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Quizzes.Bll.Interfaces\Intotech.Xerion.Quizzes.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Quizzes.Bll.Persistence.Interfaces\Intotech.Xerion.Quizzes.Bll.Persistence.Interfaces.csproj" />
+    <ProjectReference Include="..\Intotech.Xerion.Quizzes.Bll.Persistence\Intotech.Xerion.Quizzes.Bll.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
