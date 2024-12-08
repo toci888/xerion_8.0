@@ -1,24 +1,4 @@
-﻿drop view if exists AccountRoles;
-drop table if exists PushTokens;
-drop table if exists ResetPassword;
-drop table if exists FailedLoginAttempts;
-drop table if exists UserExtraData;
-drop table if exists AccountWorkResponsibilities;
-drop table if exists AccountWorkExperiences;
-drop table if exists AccountForeignLanguages;
-drop table if exists AccountEducations;
-drop table if exists AccountCoursesCertificates;
-drop table if exists AccountSoftSkills;
-drop table if exists AccountSoftSkillsTitles;
-drop table if exists AccountTags;
-drop table if exists AccountTechnicalSkills;
-drop table if exists AccountSocialMediaLinks;
-drop table if exists Accounts;
-drop table if exists Roles;
-drop table if exists EmailsRegister;
-
-
-
+﻿
 create table EmailsRegister
 (
 	id serial primary key,
