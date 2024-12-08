@@ -1,10 +1,8 @@
-namespace Toci.Intotech.Xerion.API.Models
+public class Connection
 {
-    public class Connection
-    {
-        public int Id { get; set; }
-        public int JobSeeker1Id { get; set; }
-        public int JobSeeker2Id { get; set; }
-        public bool Approved { get; set; }
-    }
+    public int Id { get; set; }
+    public int UserId { get; set; }
+    public int ConnectedUserId { get; set; }
+    public User User { get; set; }
+    public User ConnectedUser { get; set; }
 }

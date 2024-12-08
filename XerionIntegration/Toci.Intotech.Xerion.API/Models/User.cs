@@ -1,15 +1,12 @@
-namespace Toci.Intotech.Xerion.API.Models
+public class User
 {
-    public class User
-    {
-        public int Id { get; set; }
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public string PhoneNumber { get; set; }
-        public string Region { get; set; }
-
-        // Relationships
-        public ICollection<Company> Companies { get; set; } = new List<Company>();
-        public ICollection<Property> Properties { get; set; } = new List<Property>();
-    }
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Profession { get; set; }
+    public string Location { get; set; }
+    public List<Connection> Connections { get; set; }
+    public string FullName { get; internal set; }
+    public string Email { get; internal set; }
+    public string PhoneNumber { get; internal set; }
+    public string Region { get; internal set; }
 }
