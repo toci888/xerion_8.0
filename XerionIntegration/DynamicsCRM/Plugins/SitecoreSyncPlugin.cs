@@ -3,7 +3,7 @@ using System;
 
 namespace Dynamics.Custom.Plugins
 {
-    public class SitecoreSyncPlugin : IPlugin
+    public class SitecoreSyncPlugin //: IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {

@@ -10,6 +10,9 @@ namespace Toci.Intotech.Xerion.API.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Property> Properties { get; set; }
+        public DbSet<Connection> Connections { get; set; }
+        public DbSet<JobOffer> JobOffers { get; set; }
+        public DbSet<JobSeeker> JobSeekers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
