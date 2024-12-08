@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\intotech.common\Intotech.Common.Bll\Intotech.Common.Bll.csproj" />
+    <ProjectReference Include="..\..\XerionIntegration\Toci.Intotech.Xerion.Database.Persistence\Toci.Intotech.Xerion.Database.Persistence.csproj" />
     <ProjectReference Include="..\Intotech.Xerion.Database.Persistence\Intotech.Xerion.Database.Persistence.csproj" />
     <ProjectReference Include="..\Intotech.Xerion.Dictionaries\Intotech.Xerion.Dictionaries.Database.Persistence\Intotech.Xerion.Dictionaries.Database.Persistence.csproj" />
     <ProjectReference Include="..\Intotech.Xerion.Quizzes\Intotech.Xerion.Quizzes.Database.Persistence\Intotech.Xerion.Quizzes.Database.Persistence.csproj" />
