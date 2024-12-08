@@ -1,0 +1,114 @@
+.container {
+  position: absolute;
+  top: 60px;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  margin-top: 10px;
+}
+
+.sidenav {
+  display: flex;
+  width: 300px;
+  background: rgba(12, 14, 17, 0.7);
+  border-radius: 10px;
+  max-height: 300px;
+  top: 40px;
+  margin-right: 30px;
+
+  &-end-item {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  &-list {
+    &-item {
+      padding-top: 5px;
+      height: auto !important;
+      min-height: 40px;
+
+      &-quiz {
+
+        &-closed {
+          margin-top: 79px;
+          margin-bottom: -79px;
+        }
+      }
+    }
+  }
+
+  &-item {
+    display: flex;
+    height: auto;
+    color: white;
+
+    &-quiz {
+      display: flex;
+      color: white;
+    }
+    &-open {
+      margin-top: 20px;
+      margin-bottom: -20px;
+      background-color: red;
+    }
+    &-closed {
+      margin-top: 20px;
+      margin-bottom: -20px;
+      background-color: aqua;
+    }
+  }
+}
+
+mat-toolbar .changeLanguageButton button {
+  margin-right: 50px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  scale: 1.5;
+}
+
+mat-toolbar .changeLanguageButton button:hover {
+  filter: invert(55%) sepia(98%) saturate(4756%) hue-rotate(148deg) brightness(100%);
+}
+
+.changeLanguageButton {
+  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(84deg) brightness(103%);
+  zoom: 0.06;
+  // margin-right: 250px;
+  margin-top: 40px;
+}
+
+.changeLanguageButton:hover {
+  filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%);
+}
+
+.content {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  margin-bottom: 5px;
+  font-weight: bold;
+
+  &-bottom {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.quiz-options {
+  height: auto;
+  padding-top: 5px;
+  min-height: 25px;
+}

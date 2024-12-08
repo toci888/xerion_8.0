@@ -1,0 +1,149 @@
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<main class="page">
+  <div class="wrapperUser">
+    <div class="sections">
+      <div class="upheader">
+        <a class="return-button" matTooltip="{{'UserPage.Return to profile' | translate}}">
+          <button mat-raised-button type="button" routerLink="{{returnLink}}" color="accent">
+            {{'UserPage.Return' | translate}}
+          </button>
+        </a>
+        <a class="save-button">
+          <button mat-raised-button type="button" (click)="save()" color="warn">{{'All.Save' | translate}}</button>
+        </a>
+      </div>
+      <div class="header">
+        <div class="left">
+          <div class="logo">
+            <label class="custom-file-upload">
+              <input type="file" (change)="selectAvatar($event)"/>
+              <img class="avatar" alt="avatar" src="{{company.image}}">
+            </label>
+          </div>
+          <div class="companyName">
+            <div class="title">
+              <mat-form-field>
+                <mat-label>Nazwa firmy</mat-label>
+                <input matInput
+                       placeholder="Nazwa firmy"
+                       [formControl]="companyName"
+                       type="text">
+              </mat-form-field>
+            </div>
+            <div class="icons">
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <mat-form-field>
+            <mat-label>Miejscowość</mat-label>
+            <input matInput
+                   placeholder="Location"
+                   [formControl]="location"
+                   type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline" class="selector">
+            <mat-label>{{'EditUserpage.Company Size' | translate}}</mat-label>
+            <mat-select [formControl]="companySize">
+              <mat-option *ngFor="let key of getCompanySizeKeys()" [value]="key">
+                {{ CompanySize[key] }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="info">
+        <mat-grid-list cols="2" rowHeight="70px">
+          <mat-grid-tile *ngFor="let s of socials">
+            <div class="text-inside-grid">
+              <mat-icon class="add" svgIcon="{{s.icon}}"></mat-icon>
+              <mat-form-field>
+                <mat-label>{{ s.placeholder }}</mat-label>
+                <input matInput
+                       placeholder="{{ s.placeholder }}"
+                       [(ngModel)]="s.value"
+                       type="text"
+                >
+              </mat-form-field>
+            </div>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
+      <div class="about">
+        <p>O mnie:</p>
+        <span>
+            <mat-form-field class="about-me-field" appearance="outline">
+                <textarea matInput
+                          #aboutMe
+                          maxlength="2000"
+                          type="text"
+                          [(ngModel)]="company.about"
+                          cdkTextareaAutosize
+                ></textarea>
+                <mat-hint align="end">{{aboutMe.value.length}}/2000</mat-hint>
+            </mat-form-field>
+        </span>
+      </div>
+      <div class="techToolPlatform">
+        <div class="column">
+          <span>{{'EditUserpage.Technology' | translate}}:</span>
+          <mat-form-field appearance="outline" class="selector">
+            <mat-label>{{'EditUserpage.Choose technology' | translate}}</mat-label>
+            <mat-select [formControl]="tech" multiple>
+              <mat-option *ngFor="let topping of techList" [value]="topping">{{topping}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="column">
+          <span>{{'EditUserpage.Tools' | translate}}:</span>
+          <mat-form-field appearance="outline" class="selector">
+            <mat-label>{{'EditUserpage.Choose tools' | translate}}</mat-label>
+            <mat-select [formControl]="tools" multiple>
+              <mat-option *ngFor="let topping of toolsList" [value]="topping">{{topping}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="column">
+          <span>{{'EditUserpage.Platforms' | translate}}:</span>
+          <mat-form-field appearance="outline" class="selector">
+            <mat-label>{{'EditUserpage.Choose platforms' | translate}}</mat-label>
+            <mat-select [formControl]="platforms" multiple>
+              <mat-option *ngFor="let topping of platformsList" [value]="topping">{{topping}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="photos">
+        <span>{{'EditUserpage.Photos' | translate}}:</span>
+        <div class="button">
+          <label class="custom-file-upload">
+            <input type="file" (change)="selectFile($event)"/>
+            <span>{{'EditUserpage.Upload' | translate}}</span>
+          </label>
+        </div>
+        <div class="images">
+          <div class="image" *ngFor="let imgUrl of imagesUrl; let i = index">
+            <img [src]="imgUrl" width="200" height="200" alt="">
+            <div>
+            <mat-icon (click)="deleteFile(i)">delete_outline</mat-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offices">
+        <span>{{'EditUserpage.Our offices' | translate}}:</span>
+        <div *ngFor="let o of offices; let i = index; trackBy: trackById">
+          <mat-form-field>
+            <input matInput
+                   class="card-input-field"
+                   placeholder="Iframe z google maps"
+                   [(ngModel)]="offices[i]">
+          </mat-form-field>
+          <mat-icon *ngIf="i<offices.length-1" style="margin-left: 30px" (click)="delOffice(i)">delete_circle_outline</mat-icon>
+        </div>
+        <mat-icon (click)="addNew('')">add_circle_outline</mat-icon>
+      </div>
+    </div>
+  </div>
+</main>
